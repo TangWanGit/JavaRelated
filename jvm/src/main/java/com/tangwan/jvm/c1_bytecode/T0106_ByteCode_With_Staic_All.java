@@ -8,7 +8,7 @@ package com.tangwan.jvm.c1_bytecode;
 
 /**
  * @author Zhao Xiaoli
- * @Description : 成员变量 + 构造方法 + 成员方法
+ * @Description : 静态成员变量 + 静态成员方法
  * @date 2020-04-15 16:02
  * @since JDK 1.8
  * <p>
