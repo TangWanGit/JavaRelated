@@ -13,7 +13,8 @@ import java.util.List;
  * @author Zhao Xiaoli
  * @Description : T0303_HeapDump
  * 内存溢出：
- * -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath="/Users/sunshine/Documents/tmp/jvm.dump -XX:PrintGCDetails -Xms10M -Xmx10M
+ * -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath="/Users/sunshine/Documents/tmp/jvm.dump
+ * -XX:+PrintGCDetails -Xms10M -Xmx10M
  * @date 2020-04-16 15:22
  * @since JDK 1.8
  */
