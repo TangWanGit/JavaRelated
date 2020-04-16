@@ -9,6 +9,7 @@ package com.tangwan.jvm.c2_classloader;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 import com.tangwan.jvm.Hello;
@@ -19,12 +20,13 @@ import com.tangwan.jvm.Hello;
  * @date 2020-04-15 19:24
  * @since JDK 1.8
  */
-public class T0205_MIneClassLoader extends ClassLoader {
+public class T0206_MIneClassLoaderWithEncription extends ClassLoader {
+    public static int seed = 0B10110110;
 
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         File f = new File("/Users/sunshine/Documents/zhaoxl/mine/git/tangwan/JavaRelated/jvm/target/classes",
-            name.replace(".", "/").concat(".class"));
+            name.replace(".", "/").concat(".mclass"));
 
         try {
             FileInputStream fis = new FileInputStream(f);
@@ -32,7 +34,7 @@ public class T0205_MIneClassLoader extends ClassLoader {
             int b = 0;
 
             while ((b = fis.read()) != 0) {
-                baos.write(b);
+                baos.write(b ^ seed);
             }
 
             byte[] bytes = baos.toByteArray();
@@ -60,23 +62,35 @@ public class T0205_MIneClassLoader extends ClassLoader {
      * @throws InstantiationException
      */
     public static void main(String[] args)
-        throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+        throws ClassNotFoundException, IllegalAccessException, InstantiationException, IOException {
+        encFile("com.tangwan.jvm.Hello");
 
-        ClassLoader l = new T0205_MIneClassLoader();
+        ClassLoader l = new T0206_MIneClassLoaderWithEncription();
         Class<?> clazz = l.loadClass("com.tangwan.jvm.Hello");
-        Class<?> clazz1 = l.loadClass("com.tangwan.jvm.Hello");
-
-        System.out.println(clazz == clazz1);
 
         Hello h = (Hello)clazz.newInstance();
         h.m();
 
-        System.out.println(h.getClass().getClassLoader());
-
         System.out.println(l.getClass().getClassLoader());
         System.out.println(l.getParent());
+    }
 
-        System.out.println(getSystemClassLoader());
+    private static void encFile(String name) throws IOException {
+        File f = new File("/Users/sunshine/Documents/zhaoxl/mine/git/tangwan/JavaRelated/jvm/target/classes",
+            name.replace(".", "/").concat(".class"));
+        FileInputStream fis = new FileInputStream(f);
+        FileOutputStream fos = new FileOutputStream(
+            new File("/Users/sunshine/Documents/zhaoxl/mine/git/tangwan/JavaRelated/jvm/target/classes",
+                name.replace(".", "/").concat("m.class")));
+
+        int b = 0;
+        while ((b = fis.read()) != -1) {
+            fos.write(b ^ seed);
+        }
+
+        fis.close();
+        fos.close();
+
     }
 
 }
