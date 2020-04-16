@@ -14,16 +14,49 @@
     </properties>
 
     <dependencies>
-
+        <!--        <dependency>-->
+        <!--            <groupId>ObjectSize</groupId>-->
+        <!--            <artifactId>ObjectSize</artifactId>-->
+        <!--            <version>1.0</version>-->
+        <!--            <scope>system</scope>-->
+        <!--            <systemPath>/Users/sunshine/Documents/ObjectSize.jar</systemPath>-->
+        <!--        </dependency>-->
+        <dependency>
+            <artifactId>object-size</artifactId>
+            <groupId>com.tangwan</groupId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>/Users/sunshine/Documents/zhaoxl/mine/git/tangwan/ObjectSize/target/object-size-1.0.0-jar-with-dependencies.jar</systemPath>
+        </dependency>
     </dependencies>
+
+    <!--    <build>-->
+    <!--        <plugins>-->
+    <!--            <plugin>-->
+    <!--                <groupId>org.springframework.boot</groupId>-->
+    <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+    <!--            </plugin>-->
+    <!--            <plugin>-->
+    <!--                <groupId>org.apache.maven.plugins</groupId>-->
+    <!--                <artifactId>maven-compiler-plugin</artifactId>-->
+    <!--                <configuration>-->
+    <!--                    <source>7</source>-->
+    <!--                    <target>7</target>-->
+    <!--                </configuration>-->
+    <!--            </plugin>-->
+    <!--        </plugins>-->
+    <!--    </build>-->
 
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
