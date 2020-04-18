@@ -41,7 +41,7 @@ public class T0301_SizeOfAnObject {
         byte b1;        // 1
         byte b2;        // 1
 
-        Object o;       // 4
+        //Object o;       // 4
         byte b3;        // 1
     }
 }

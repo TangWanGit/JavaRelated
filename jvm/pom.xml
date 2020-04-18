@@ -28,6 +28,11 @@
             <scope>system</scope>
             <systemPath>/Users/sunshine/Documents/zhaoxl/mine/git/tangwan/ObjectSize/target/object-size-1.0.0-jar-with-dependencies.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.9</version>
+        </dependency>
     </dependencies>
 
     <!--    <build>-->
