@@ -5,5 +5,6 @@ public class T01_InvokeStatic {
         m();
     }
 
-    public static void m() {}
+    public static void m() {
+    }
 }

@@ -5,5 +5,6 @@ public class T02_InvokeVirtual {
         new T02_InvokeVirtual().m();
     }
 
-    public void m() {}
+    public void m() {
+    }
 }

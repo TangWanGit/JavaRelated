@@ -9,7 +9,7 @@ package com.tangwan.jvm.c5_gc;
 /**
  * @author Zhao Xiaoli
  * @Description : T02_CMS_Eden
- *
+ * <p>
  * -Xmn10m = -XX:newSize=10m -XX:MaxNewSize=10m -XX:NewRatio -Xlog:gc.log
  * @date 2020-04-16 16:34
  * @since JDK 1.8

@@ -9,36 +9,36 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-   
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <configuration>
-                <descriptorRefs>
-                    <descriptorRef>jar-with-dependencies</descriptorRef>
-                </descriptorRefs>
-                <archive>
-                    <manifestEntries>
-                        <Premain-Class>com.tangwan.object.size.ObjectSizeAgent</Premain-Class>
-                        <Agent-Class>com.tangwan.object.size.ObjectSizeAgent</Agent-Class>
-                        <Can-Redefine-Classes>true</Can-Redefine-Classes>
-                        <Can-Retransform-Classes>true</Can-Retransform-Classes>
-                    </manifestEntries>
-                </archive>
-            </configuration>
 
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>attached</goal>
-                    </goals>
-                    <phase>package</phase>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-</build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifestEntries>
+                            <Premain-Class>com.tangwan.object.size.ObjectSizeAgent</Premain-Class>
+                            <Agent-Class>com.tangwan.object.size.ObjectSizeAgent</Agent-Class>
+                            <Can-Redefine-Classes>true</Can-Redefine-Classes>
+                            <Can-Retransform-Classes>true</Can-Retransform-Classes>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>attached</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

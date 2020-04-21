@@ -22,14 +22,12 @@ public class T0200_ClassLoadingProcedure {
 class T {
     /**
      * 类加载过程：
-     *
+     * <p>
      * 静态变量，从上到下依次加载
-     *
      */
     public static T t = new T();
     public static int count = 2;
     private int m = 8;
-
 
     private T() {
         count++;
