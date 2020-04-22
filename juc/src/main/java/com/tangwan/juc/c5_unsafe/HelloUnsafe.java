@@ -6,6 +6,10 @@
  */
 package com.tangwan.juc.c5_unsafe;
 
+import java.lang.reflect.Field;
+import java.security.AccessController;
+import java.security.PrivilegedExceptionAction;
+
 import sun.misc.Unsafe;
 
 /**
@@ -22,9 +26,26 @@ public class HelloUnsafe {
         int i = 0;
     }
 
+    private static Unsafe THE_UNSAFE;
+
+    static {
+        try {
+            final PrivilegedExceptionAction<Unsafe> action = () -> {
+                Field theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
+                theUnsafe.setAccessible(true);
+                return (Unsafe)theUnsafe.get(null);
+            };
+            THE_UNSAFE = AccessController.doPrivileged(action);
+        } catch (Exception e) {
+            throw new RuntimeException("Unable to load unsafe", e);
+        }
+    }
+
     public static void main(String[] args) throws InstantiationException {
-        Unsafe unsafe = Unsafe.getUnsafe();
-        M m = (M)unsafe.allocateInstance(M.class);
+
+        //Unsafe unsafe = Unsafe.getUnsafe();
+
+        M m = (M)THE_UNSAFE.allocateInstance(M.class);
         System.out.println(m.i);
 
         m.i = 9;
