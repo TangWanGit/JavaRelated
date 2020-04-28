@@ -6,8 +6,6 @@
  */
 package com.tangwan.juc.c7_interview;
 
-import java.time.Instant;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -20,12 +18,12 @@ import java.util.concurrent.TimeUnit;
  * 实现一个容器，提供两个方法，add，size
  * 写两个线程，线程1添加10个元素到容器中，线程2实现监控元素的个数，当个数到5个时，线程2给出提示并结束
  * <p>
- * 分析下面这个程序，能完成这个功能吗？
- * 不能，lists在线程间隔离，第二个线程无法获取到size准确值
+ * 给lists添加volatile之后，t2能够接到通知，但是，t2线程的死循环很浪费cpu，如果不用死循环，
+ * 而且，如果在if 和 break之间被别的线程打断，得到的结果也不精确，
  * @date 2020-04-24 14:45
  * @since JDK 1.8
  */
-public class T01_WithVolatile {
+public class T02_WithVolatile {
     volatile List lists = new ArrayList();
 
     public void add(Object o) {
@@ -37,11 +35,7 @@ public class T01_WithVolatile {
     }
 
     public static void main(String[] args) {
-
-        Integer[] a = new Integer[1];
-        System.out.println(a[0]);
-
-        T01_WithVolatile c = new T01_WithVolatile();
+        T02_WithVolatile c = new T02_WithVolatile();
 
         new Thread(() -> {
             for (int i = 0; i < 10; i++) {
