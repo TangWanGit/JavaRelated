@@ -1,13 +1,13 @@
 /*
- * File Name:StopWatcher is created on 2020-05-06 09:36 by Zhao Xiaoli
+ * File Name:StopWatcher is created on 2020-05-06 09:36 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : StopWatcher
  * @date 2020-05-06 09:36
  * @since JDK 1.8

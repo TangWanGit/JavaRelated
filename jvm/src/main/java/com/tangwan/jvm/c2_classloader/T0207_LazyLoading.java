@@ -1,13 +1,13 @@
 /*
- * File Name:T0207_LazyLoading is created on 2020-04-16 10:17 by Zhao Xiaoli
+ * File Name:T0207_LazyLoading is created on 2020-04-16 10:17 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c2_classloader;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T0207_LazyLoading
  * <p>
  * 严格讲应该叫lazy initialization，因为java虚拟机规范并没有严格规定什么时候必须loading,但严格规定了什么时候initialization

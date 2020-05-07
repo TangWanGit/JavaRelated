@@ -1,7 +1,7 @@
 /*
- * File Name:T08_Phaser is created on 2020-04-23 14:34 by Zhao Xiaoli
+ * File Name:T08_Phaser is created on 2020-04-23 14:34 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -11,7 +11,7 @@ import java.util.concurrent.Phaser;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T08_Phaser
  * @date 2020-04-23 14:34
  * @since JDK 1.8

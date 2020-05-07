@@ -1,7 +1,7 @@
 /*
- * File Name:T01_WhatIsThread is created on 2020-04-20 11:08 by Zhao Xiaoli
+ * File Name:T01_WhatIsThread is created on 2020-04-20 11:08 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c0_basic;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c0_basic;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_WhatIsThread
  * @date 2020-04-20 11:08
  * @since JDK 1.8

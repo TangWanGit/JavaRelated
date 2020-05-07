@@ -1,13 +1,13 @@
 /*
- * File Name:Constants is created on 2020-04-28 16:21 by Zhao Xiaoli
+ * File Name:Constants is created on 2020-04-28 16:21 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c10_fromHashtableToCHM;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : Constants
  * @date 2020-04-28 16:21
  * @since JDK 1.8

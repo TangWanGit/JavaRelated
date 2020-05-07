@@ -1,7 +1,7 @@
 /*
- * File Name:T04_InvokeInterface is created on 2020-04-16 15:42 by Zhao Xiaoli
+ * File Name:T04_InvokeInterface is created on 2020-04-16 15:42 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c4_runtimeDataAreaAndInstructionSet;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_InvokeInterface
  * @date 2020-04-16 15:42
  * @since JDK 1.8

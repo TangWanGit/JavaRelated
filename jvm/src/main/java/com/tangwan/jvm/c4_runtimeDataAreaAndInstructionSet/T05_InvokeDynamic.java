@@ -1,13 +1,13 @@
 /*
- * File Name:T05_InvokeDynamic is created on 2020-04-16 15:34 by Zhao Xiaoli
+ * File Name:T05_InvokeDynamic is created on 2020-04-16 15:34 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c4_runtimeDataAreaAndInstructionSet;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T05_InvokeDynamic
  * @date 2020-04-16 15:34
  * @since JDK 1.8

@@ -1,7 +1,7 @@
 /*
- * File Name:T11_Semaphore is created on 2020-04-23 15:16 by Zhao Xiaoli
+ * File Name:T11_Semaphore is created on 2020-04-23 15:16 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c6_AQSLock;
 import java.util.concurrent.Semaphore;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T11_Semaphore
  * @date 2020-04-23 15:16
  * @since JDK 1.8

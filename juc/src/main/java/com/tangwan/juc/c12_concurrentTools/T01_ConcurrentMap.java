@@ -1,7 +1,7 @@
 /*
- * File Name:T01_ConcurrentMap is created on 2020-05-06 09:31 by Zhao Xiaoli
+ * File Name:T01_ConcurrentMap is created on 2020-05-06 09:31 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c12_concurrentTools;
@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import com.tangwan.juc.StopWatcher;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_ConcurrentMap
  * http://blog.csdn.net/sunxianghuang/article/details/52221913
  * http://www.educity.cn/java/498061.html

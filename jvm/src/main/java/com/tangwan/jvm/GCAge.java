@@ -1,7 +1,7 @@
 /*
- * File Name:GCAge is created on 2020-04-16 17:52 by Zhao Xiaoli
+ * File Name:GCAge is created on 2020-04-16 17:52 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm;
@@ -9,7 +9,7 @@ package com.tangwan.jvm;
 import org.openjdk.jol.info.ClassLayout;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : GCAge
  * <p>
  * com.tangwan.jvm.Person object internals:

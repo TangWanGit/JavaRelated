@@ -1,7 +1,7 @@
 /*
- * File Name:T04_PhantomReference is created on 2020-04-28 16:07 by Zhao Xiaoli
+ * File Name:T04_PhantomReference is created on 2020-04-28 16:07 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c9_RefTypeAndThreadLocal;
@@ -13,7 +13,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_PhantomReference
  * <p>
  * 一个对象是否有虚引用的存在，完全不会对其生存时间构成影响，

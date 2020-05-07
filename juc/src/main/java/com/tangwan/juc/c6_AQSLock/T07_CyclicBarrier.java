@@ -1,7 +1,7 @@
 /*
- * File Name:T07_CyclicBarrier is created on 2020-04-23 14:33 by Zhao Xiaoli
+ * File Name:T07_CyclicBarrier is created on 2020-04-23 14:33 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -10,7 +10,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T07_CyclicBarrier
  * @date 2020-04-23 14:33
  * @since JDK 1.8

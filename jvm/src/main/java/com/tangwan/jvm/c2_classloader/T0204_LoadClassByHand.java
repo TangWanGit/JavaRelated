@@ -1,13 +1,13 @@
 /*
- * File Name:T0204_LoadClassByHand is created on 2020-04-16 09:48 by Zhao Xiaoli
+ * File Name:T0204_LoadClassByHand is created on 2020-04-16 09:48 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c2_classloader;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T0204_LoadClassByHand
  * @date 2020-04-16 09:48
  * @since JDK 1.8

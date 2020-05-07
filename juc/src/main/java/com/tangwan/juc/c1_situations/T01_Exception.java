@@ -1,7 +1,7 @@
 /*
- * File Name:T01_Exception is created on 2020-04-21 15:51 by Zhao Xiaoli
+ * File Name:T01_Exception is created on 2020-04-21 15:51 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c1_situations;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c1_situations;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_Exception
  * <p>
  * 程序在执行过程中，如果出现异常，默认情况锁会被释放

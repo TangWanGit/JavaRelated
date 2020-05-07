@@ -1,7 +1,7 @@
 /*
- * File Name:T02_AtomicVsSyncVsLongAddr is created on 2020-04-21 17:06 by Zhao Xiaoli
+ * File Name:T02_AtomicVsSyncVsLongAddr is created on 2020-04-21 17:06 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c4_atomicXXX;
@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_AtomicVsSyncVsLongAddr
  * @date 2020-04-21 17:06
  * @since JDK 1.8

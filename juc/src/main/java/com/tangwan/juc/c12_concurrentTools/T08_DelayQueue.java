@@ -1,7 +1,7 @@
 /*
- * File Name:T08_DelayQueue is created on 2020-05-06 17:04 by Zhao Xiaoli
+ * File Name:T08_DelayQueue is created on 2020-05-06 17:04 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c12_concurrentTools;
@@ -12,7 +12,7 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T08_DelayQueue
  * @date 2020-05-06 17:04
  * @since JDK 1.8

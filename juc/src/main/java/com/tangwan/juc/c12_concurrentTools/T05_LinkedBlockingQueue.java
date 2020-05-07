@@ -1,7 +1,7 @@
 /*
- * File Name:T05_LinkedBlockingQueue is created on 2020-05-06 16:43 by Zhao Xiaoli
+ * File Name:T05_LinkedBlockingQueue is created on 2020-05-06 16:43 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c12_concurrentTools;
@@ -12,7 +12,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T05_LinkedBlockingQueue
  * <p>
  * 实现消费者生产者模式

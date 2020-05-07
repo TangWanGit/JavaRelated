@@ -1,7 +1,7 @@
 /*
- * File Name:T is created on 2020-04-15 15:35 by Zhao Xiaoli
+ * File Name:T is created on 2020-04-15 15:35 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c0_basic;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T
  * @date 2020-04-15 15:35
  * @since JDK 1.8

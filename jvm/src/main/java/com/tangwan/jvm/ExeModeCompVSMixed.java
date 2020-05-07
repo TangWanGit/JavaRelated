@@ -1,13 +1,13 @@
 /*
- * File Name:ExeModeCompVSMixed is created on 2020-04-16 19:44 by Zhao Xiaoli
+ * File Name:ExeModeCompVSMixed is created on 2020-04-16 19:44 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : ExeModeCompVSMixed
  * @date 2020-04-16 19:44
  * @since JDK 1.8

@@ -1,7 +1,7 @@
 /*
- * File Name:T01_TestHashtable is created on 2020-04-28 16:22 by Zhao Xiaoli
+ * File Name:T01_TestHashtable is created on 2020-04-28 16:22 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c10_fromHashtableToCHM;
@@ -11,7 +11,7 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_TestConturrentHashMap
  * 读：较快
  * 写：较快

@@ -1,7 +1,7 @@
 /*
- * File Name:T08_SingleThreadPool is created on 2020-05-07 09:50 by Zhao Xiaoli
+ * File Name:T08_SingleThreadPool is created on 2020-05-07 09:50 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T08_SingleThreadPool
  * @date 2020-05-07 09:50
  * @since JDK 1.8

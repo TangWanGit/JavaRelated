@@ -1,7 +1,7 @@
 /*
- * File Name:T13_ForkJoinPool is created on 2020-05-07 10:31 by Zhao Xiaoli
+ * File Name:T13_ForkJoinPool is created on 2020-05-07 10:31 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -13,7 +13,7 @@ import java.util.concurrent.RecursiveAction;
 import java.util.concurrent.RecursiveTask;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T13_ForkJoinPool
  * @date 2020-05-07 10:31
  * @since JDK 1.8

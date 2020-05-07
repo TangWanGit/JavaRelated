@@ -1,7 +1,7 @@
 /*
- * File Name:T11_Use_TransferQueue is created on 2020-05-06 19:30 by Zhao Xiaoli
+ * File Name:T11_Use_TransferQueue is created on 2020-05-06 19:30 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c13_interview.A1B2C3;
@@ -10,7 +10,7 @@ import java.util.concurrent.LinkedTransferQueue;
 import java.util.concurrent.TransferQueue;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T11_Use_TransferQueue
  * @date 2020-05-06 19:30
  * @since JDK 1.8

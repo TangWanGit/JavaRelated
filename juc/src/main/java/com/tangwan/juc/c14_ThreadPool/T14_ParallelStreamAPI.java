@@ -1,7 +1,7 @@
 /*
- * File Name:T14_ParallelStreamAPI is created on 2020-05-07 11:51 by Zhao Xiaoli
+ * File Name:T14_ParallelStreamAPI is created on 2020-05-07 11:51 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -13,7 +13,7 @@ import java.util.Random;
 import com.tangwan.juc.StopWatcher;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T14_ParallelStreamAPI
  * @date 2020-05-07 11:51
  * @since JDK 1.8

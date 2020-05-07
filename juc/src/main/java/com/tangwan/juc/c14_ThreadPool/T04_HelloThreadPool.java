@@ -1,7 +1,7 @@
 /*
- * File Name:T04_HelloThreadPool is created on 2020-05-06 19:44 by Zhao Xiaoli
+ * File Name:T04_HelloThreadPool is created on 2020-05-06 19:44 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -13,7 +13,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_HelloThreadPool
  * @date 2020-05-06 19:44
  * @since JDK 1.8

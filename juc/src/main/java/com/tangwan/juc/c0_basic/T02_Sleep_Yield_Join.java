@@ -1,13 +1,13 @@
 /*
- * File Name:T02_Sleep_Yield_Join is created on 2020-04-21 15:26 by Zhao Xiaoli
+ * File Name:T02_Sleep_Yield_Join is created on 2020-04-21 15:26 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c0_basic;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_Sleep_Yield_Join
  * @date 2020-04-21 15:26
  * @since JDK 1.8

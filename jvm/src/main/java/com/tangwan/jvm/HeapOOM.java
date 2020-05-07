@@ -1,7 +1,7 @@
 /*
- * File Name:HeapOOM is created on 2020-04-20 10:59 by Zhao Xiaoli
+ * File Name:HeapOOM is created on 2020-04-20 10:59 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm;
@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : HeapOOM
  * Options: -verbose：c5_gc -Xms20m -Xmx20m -XX:+PrintGCDetails -XX:+HeapDumpOnOutOfMemoryError
  * @date 2020-04-20 10:59

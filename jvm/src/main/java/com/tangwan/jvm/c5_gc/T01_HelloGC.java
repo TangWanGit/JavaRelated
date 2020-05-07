@@ -1,13 +1,13 @@
 /*
- * File Name:T01_HelloGC is created on 2020-04-16 16:29 by Zhao Xiaoli
+ * File Name:T01_HelloGC is created on 2020-04-16 16:29 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c5_gc;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_HelloGC
  * -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC -XX:+PrintFlagsFinal -XX:+PrintVMOptions -Xms20m -Xmx20m
  * @date 2020-04-16 16:29

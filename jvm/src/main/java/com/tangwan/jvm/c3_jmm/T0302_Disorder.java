@@ -1,13 +1,13 @@
 /*
- * File Name:T0302_Disorder is created on 2020-04-16 14:37 by Zhao Xiaoli
+ * File Name:T0302_Disorder is created on 2020-04-16 14:37 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c3_jmm;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T0302_Disorder
  * @date 2020-04-16 14:37
  * @since JDK 1.8

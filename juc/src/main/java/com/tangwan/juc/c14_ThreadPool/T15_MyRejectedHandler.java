@@ -1,7 +1,7 @@
 /*
- * File Name:T15_MyRejectedHandler is created on 2020-05-07 15:16 by Zhao Xiaoli
+ * File Name:T15_MyRejectedHandler is created on 2020-05-07 15:16 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -14,7 +14,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T15_MyRejectedHandler
  * @date 2020-05-07 15:16
  * @since JDK 1.8

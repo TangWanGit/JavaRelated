@@ -1,7 +1,7 @@
 /*
- * File Name:T01_NormalReference is created on 2020-04-28 15:30 by Zhao Xiaoli
+ * File Name:T01_NormalReference is created on 2020-04-28 15:30 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c9_RefTypeAndThreadLocal;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c9_RefTypeAndThreadLocal;
 import java.io.IOException;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_NormalReference
  * <p>
  * 强引用

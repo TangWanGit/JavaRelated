@@ -1,7 +1,7 @@
 /*
- * File Name:T06_CountDownLatch is created on 2020-04-23 11:46 by Zhao Xiaoli
+ * File Name:T06_CountDownLatch is created on 2020-04-23 11:46 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c6_AQSLock;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T06_CountDownLatch
  * @date 2020-04-23 11:46
  * @since JDK 1.8

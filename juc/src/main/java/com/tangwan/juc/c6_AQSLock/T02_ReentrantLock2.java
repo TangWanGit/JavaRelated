@@ -1,7 +1,7 @@
 /*
- * File Name:T02_ReentrantLock2 is created on 2020-04-23 10:02 by Zhao Xiaoli
+ * File Name:T02_ReentrantLock2 is created on 2020-04-23 10:02 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -11,7 +11,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_ReentrantLock2 和 T01_ReentrantLock1进行比较
  * 使用reentrantlock可以完成同样的功能
  * 需要注意的是，必须要必须要必须要手动释放锁（重要的事情说三遍）

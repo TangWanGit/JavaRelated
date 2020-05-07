@@ -1,13 +1,13 @@
 /*
- * File Name:T02_VolatileReference is created on 2020-04-21 16:02 by Zhao Xiaoli
+ * File Name:T02_VolatileReference is created on 2020-04-21 16:02 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c2_volatile;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_VolatileReference
  * @date 2020-04-21 16:02
  * @since JDK 1.8

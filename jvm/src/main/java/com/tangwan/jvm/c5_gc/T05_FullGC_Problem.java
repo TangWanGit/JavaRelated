@@ -1,7 +1,7 @@
 /*
- * File Name:T05_FullGC_Problem is created on 2020-04-16 17:02 by Zhao Xiaoli
+ * File Name:T05_FullGC_Problem is created on 2020-04-16 17:02 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c5_gc;
@@ -16,7 +16,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T05_FullGC_Problem
  * @date 2020-04-16 17:02
  * @since JDK 1.8

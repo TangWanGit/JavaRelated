@@ -1,7 +1,7 @@
 /*
- * File Name:T0301_SizeOfAnObject is created on 2020-04-16 11:22 by Zhao Xiaoli
+ * File Name:T0301_SizeOfAnObject is created on 2020-04-16 11:22 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c3_jmm;
@@ -9,7 +9,7 @@ package com.tangwan.jvm.c3_jmm;
 import com.tangwan.object.size.ObjectSizeAgent;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T0301_SizeOfAnObject
  * 启动参数：
  * -javaagent:ObjectSize/target/object-size-1.0.0-jar-with-dependencies.jar

@@ -1,7 +1,7 @@
 /*
- * File Name:TestIdentityHashCode is created on 2020-04-15 15:45 by Zhao Xiaoli
+ * File Name:TestIdentityHashCode is created on 2020-04-15 15:45 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c0_basic;
@@ -9,7 +9,7 @@ package com.tangwan.jvm.c0_basic;
 /**
  * identityHashCode和hashCode的区别是，identityHashCode会返回对象的hashCode，而不管对象是否重写了hashCode方法。
  *
- * @author Zhao Xiaoli
+ * @author tangwan
  * @date 2020-04-15 15:45
  * @since JDK 1.8
  */

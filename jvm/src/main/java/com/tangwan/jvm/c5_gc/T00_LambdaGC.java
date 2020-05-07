@@ -1,13 +1,13 @@
 /*
- * File Name:T00_LambdaGC is created on 2020-04-16 15:34 by Zhao Xiaoli
+ * File Name:T00_LambdaGC is created on 2020-04-16 15:34 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c5_gc;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T00_LambdaGC
  * -XX:+PrintGCDetails -Xms10m -Xmx10m
  * @date 2020-04-16 15:34

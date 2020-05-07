@@ -1,7 +1,7 @@
 /*
- * File Name:T02_SoftReference is created on 2020-04-28 15:33 by Zhao Xiaoli
+ * File Name:T02_SoftReference is created on 2020-04-28 15:33 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c9_RefTypeAndThreadLocal;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c9_RefTypeAndThreadLocal;
 import java.lang.ref.SoftReference;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_SoftReference
  * <p>
  * 软引用

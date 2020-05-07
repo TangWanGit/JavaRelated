@@ -1,7 +1,7 @@
 /*
- * File Name:T09_Container_WithNotify is created on 2020-04-28 14:19 by Zhao Xiaoli
+ * File Name:T09_Container_WithNotify is created on 2020-04-28 14:19 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c7_interview;
@@ -12,7 +12,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T09_Container_WithNotify
  * <p>
  * 面试题：写一个固定容量同步容器，拥有put和get方法，以及getCount方法，

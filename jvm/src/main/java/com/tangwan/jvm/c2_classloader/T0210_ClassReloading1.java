@@ -1,13 +1,13 @@
 /*
- * File Name:T0210_ClassReloading1 is created on 2020-04-16 10:52 by Zhao Xiaoli
+ * File Name:T0210_ClassReloading1 is created on 2020-04-16 10:52 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c2_classloader;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T0210_ClassReloading1
  * 验证双亲委派
  * @date 2020-04-16 10:52

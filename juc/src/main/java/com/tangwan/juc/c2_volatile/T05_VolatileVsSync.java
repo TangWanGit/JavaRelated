@@ -1,7 +1,7 @@
 /*
- * File Name:T04_VolatileNotSync is created on 2020-04-21 16:44 by Zhao Xiaoli
+ * File Name:T04_VolatileNotSync is created on 2020-04-21 16:44 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c2_volatile;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_VolatileNotSync
  * <p>
  * @date 2020-04-21 16:44

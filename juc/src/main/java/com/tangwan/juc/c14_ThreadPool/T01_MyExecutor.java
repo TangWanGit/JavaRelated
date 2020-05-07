@@ -1,7 +1,7 @@
 /*
- * File Name:T01_MyExecutor is created on 2020-05-06 19:37 by Zhao Xiaoli
+ * File Name:T01_MyExecutor is created on 2020-05-06 19:37 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c14_ThreadPool;
 import java.util.concurrent.Executor;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_MyExecutor
  * 认识Executor
  * @date 2020-05-06 19:37

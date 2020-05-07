@@ -1,7 +1,7 @@
 /*
- * File Name:T01_HelloVolatile is created on 2020-04-21 15:59 by Zhao Xiaoli
+ * File Name:T01_HelloVolatile is created on 2020-04-21 15:59 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c2_volatile;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c2_volatile;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_HelloVolatile
  * @date 2020-04-21 15:59
  * @since JDK 1.8

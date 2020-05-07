@@ -1,7 +1,7 @@
 /*
- * File Name:T11_SchedulePool is created on 2020-05-07 10:09 by Zhao Xiaoli
+ * File Name:T11_SchedulePool is created on 2020-05-07 10:09 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -12,7 +12,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T11_SchedulePool
  * @date 2020-05-07 10:09
  * @since JDK 1.8

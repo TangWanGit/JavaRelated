@@ -1,7 +1,7 @@
 /*
- * File Name:T10_Use_Exchanger_Not_Work is created on 2020-05-06 19:26 by Zhao Xiaoli
+ * File Name:T10_Use_Exchanger_Not_Work is created on 2020-05-06 19:26 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c13_interview.A1B2C3;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c13_interview.A1B2C3;
 import java.util.concurrent.Exchanger;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T10_Use_Exchanger_Not_Work
  * @date 2020-05-06 19:26
  * @since JDK 1.8

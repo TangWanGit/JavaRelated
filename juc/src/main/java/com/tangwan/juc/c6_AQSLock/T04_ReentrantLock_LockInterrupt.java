@@ -1,7 +1,7 @@
 /*
- * File Name:T03_ReentrantLock_TryLock is created on 2020-04-23 10:19 by Zhao Xiaoli
+ * File Name:T03_ReentrantLock_TryLock is created on 2020-04-23 10:19 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -11,7 +11,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T03_ReentrantLock_TryLock
  * <p>
  * 使用ReentrantLock还可以调用lockInterruptibly方法，可以对线程interrupt方法做出响应，

@@ -1,7 +1,7 @@
 /*
- * File Name:T01_WithoutVolatile is created on 2020-04-24 14:45 by Zhao Xiaoli
+ * File Name:T01_WithoutVolatile is created on 2020-04-24 14:45 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c7_interview;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_WithoutVolatile
  * <p>
  * 曾经的面试题：（淘宝？）

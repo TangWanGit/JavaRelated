@@ -1,7 +1,7 @@
 /*
- * File Name:T09_SynchronzedQueue is created on 2020-05-06 17:12 by Zhao Xiaoli
+ * File Name:T09_SynchronzedQueue is created on 2020-05-06 17:12 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c12_concurrentTools;
@@ -10,7 +10,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.SynchronousQueue;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T09_SynchronzedQueue
  * @date 2020-05-06 17:12
  * @since JDK 1.8

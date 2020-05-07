@@ -1,7 +1,7 @@
 /*
- * File Name:T12_Exchanger is created on 2020-04-23 15:27 by Zhao Xiaoli
+ * File Name:T12_Exchanger is created on 2020-04-23 15:27 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c6_AQSLock;
 import java.util.concurrent.Exchanger;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T12_Exchanger
  * @date 2020-04-23 15:27
  * @since JDK 1.8

@@ -1,7 +1,7 @@
 /*
- * File Name:T03_Use_BlockingQueue is created on 2020-05-06 18:59 by Zhao Xiaoli
+ * File Name:T03_Use_BlockingQueue is created on 2020-05-06 18:59 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c13_interview.A1B2C3;
@@ -11,7 +11,7 @@ import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_Use_AtomicInteger
  * @date 2020-05-06 18:59
  * @since JDK 1.8

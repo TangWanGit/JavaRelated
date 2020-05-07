@@ -1,7 +1,7 @@
 /*
- * File Name:T13_LockSupport is created on 2020-04-23 15:31 by Zhao Xiaoli
+ * File Name:T13_LockSupport is created on 2020-04-23 15:31 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T13_LockSupport
  * @date 2020-04-23 15:31
  * @since JDK 1.8

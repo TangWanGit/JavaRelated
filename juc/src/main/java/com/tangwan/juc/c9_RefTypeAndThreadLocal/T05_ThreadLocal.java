@@ -1,7 +1,7 @@
 /*
- * File Name:T05_ThreadLocal is created on 2020-04-28 16:12 by Zhao Xiaoli
+ * File Name:T05_ThreadLocal is created on 2020-04-28 16:12 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c9_RefTypeAndThreadLocal;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c9_RefTypeAndThreadLocal;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T05_ThreadLocal
  * <p>
  * ThreadLocal线程局部变量

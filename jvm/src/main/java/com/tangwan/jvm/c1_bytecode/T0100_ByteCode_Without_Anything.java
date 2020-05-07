@@ -1,13 +1,13 @@
 /*
- * File Name:T0100_ByteCode_Without_Anything is created on 2020-04-15 16:02 by Zhao Xiaoli
+ * File Name:T0100_ByteCode_Without_Anything is created on 2020-04-15 16:02 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c1_bytecode;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : 仅仅只有一个类
  * @date 2020-04-15 16:02
  * @since JDK 1.8

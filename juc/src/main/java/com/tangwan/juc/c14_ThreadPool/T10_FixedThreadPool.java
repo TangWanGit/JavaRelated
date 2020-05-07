@@ -1,7 +1,7 @@
 /*
- * File Name:T10_FixedThreadPool is created on 2020-05-07 09:56 by Zhao Xiaoli
+ * File Name:T10_FixedThreadPool is created on 2020-05-07 09:56 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -17,7 +17,7 @@ import java.util.concurrent.Future;
 import com.tangwan.juc.StopWatcher;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T10_FixedThreadPool
  * @date 2020-05-07 09:56
  * @since JDK 1.8

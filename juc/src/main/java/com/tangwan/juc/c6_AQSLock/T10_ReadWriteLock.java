@@ -1,7 +1,7 @@
 /*
- * File Name:T10_ReadWriteLock is created on 2020-04-23 14:51 by Zhao Xiaoli
+ * File Name:T10_ReadWriteLock is created on 2020-04-23 14:51 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T10_ReadWriteLock
  * @date 2020-04-23 14:51
  * @since JDK 1.8

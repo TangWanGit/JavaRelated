@@ -1,7 +1,7 @@
 /*
- * File Name:T01_TicketSeller1 is created on 2020-04-29 11:49 by Zhao Xiaoli
+ * File Name:T01_TicketSeller1 is created on 2020-04-29 11:49 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c11_fromVectorToQueue;
@@ -10,7 +10,7 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_TicketSeller1
  * <p>
  * 有N张火车票，每张票都有一个编号

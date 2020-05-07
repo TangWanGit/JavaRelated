@@ -1,7 +1,7 @@
 /*
- * File Name:T02_CMS_Eden is created on 2020-04-16 16:34 by Zhao Xiaoli
+ * File Name:T02_CMS_Eden is created on 2020-04-16 16:34 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c5_gc;
@@ -9,7 +9,7 @@ package com.tangwan.jvm.c5_gc;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_CMS_Eden
  * <p>
  * -Xmn10m

@@ -1,7 +1,7 @@
 /*
- * File Name:T02_CopyOnWriteList is created on 2020-05-06 16:27 by Zhao Xiaoli
+ * File Name:T02_CopyOnWriteList is created on 2020-05-06 16:27 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c12_concurrentTools;
@@ -14,7 +14,7 @@ import java.util.Random;
 import com.tangwan.juc.ComputeTimeTest;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_CopyOnWriteList
  * 速度快
  * @date 2020-05-06 16:27

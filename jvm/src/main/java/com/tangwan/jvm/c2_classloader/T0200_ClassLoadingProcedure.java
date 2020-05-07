@@ -1,13 +1,13 @@
 /*
- * File Name:T0200_ClassLoadingProcedure is created on 2020-04-15 17:14 by Zhao Xiaoli
+ * File Name:T0200_ClassLoadingProcedure is created on 2020-04-15 17:14 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.jvm.c2_classloader;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T0200_ClassLoadingProcedure
  * class加载过程
  * @date 2020-04-15 17:14

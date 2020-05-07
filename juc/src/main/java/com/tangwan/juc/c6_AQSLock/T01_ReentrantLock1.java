@@ -1,7 +1,7 @@
 /*
- * File Name:T01_ReentrantLock1 is created on 2020-04-21 17:31 by Zhao Xiaoli
+ * File Name:T01_ReentrantLock1 is created on 2020-04-21 17:31 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c6_AQSLock;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c6_AQSLock;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_ReentrantLock1
  * reentrantlock用于替代synchronized
  * 本例中由于m1锁定this,只有m1执行完毕的时候,m2才能执行

@@ -1,7 +1,7 @@
 /*
- * File Name:FineCoarseLock is created on 2020-04-21 16:56 by Zhao Xiaoli
+ * File Name:FineCoarseLock is created on 2020-04-21 16:56 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * Copyright (c) 2020, tangwan All Rights Reserved.
  *
  */
 package com.tangwan.juc.c3_lockOptimization;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c3_lockOptimization;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : FineCoarseLock
  * synchronized优化
  * 同步代码块中的语句越少越好
