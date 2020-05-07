@@ -29,4 +29,9 @@ public class StopWatcher {
         System.out.println("consuming : " + (end - start));
     }
 
+    public void endAndFinish() {
+        end();
+        finish();
+    }
+
 }
