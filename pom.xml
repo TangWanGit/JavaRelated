@@ -13,6 +13,7 @@
         <module>JUC</module>
         <module>ObjectSize</module>
         <module>JVM</module>
+        <module>JMH</module>
     </modules>
 
     <!--    <build>-->
