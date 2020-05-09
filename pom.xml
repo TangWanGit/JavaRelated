@@ -10,9 +10,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>jvm</module>
+        <module>JUC</module>
         <module>ObjectSize</module>
-        <module>juc</module>
+        <module>JVM</module>
     </modules>
 
     <!--    <build>-->

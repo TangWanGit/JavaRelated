@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tangwan.jvm</groupId>
-    <artifactId>jvm</artifactId>
+    <artifactId>JVM</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -14,19 +14,12 @@
     </properties>
 
     <dependencies>
-        <!--        <dependency>-->
-        <!--            <groupId>ObjectSize</groupId>-->
-        <!--            <artifactId>ObjectSize</artifactId>-->
-        <!--            <version>1.0</version>-->
-        <!--            <scope>system</scope>-->
-        <!--            <systemPath>/Users/sunshine/Documents/ObjectSize.jar</systemPath>-->
-        <!--        </dependency>-->
         <dependency>
             <artifactId>object-size</artifactId>
             <groupId>com.tangwan</groupId>
             <version>1.0.0</version>
             <scope>system</scope>
-            <systemPath>/Users/sunshine/Documents/zhaoxl/mine/git/tangwan/ObjectSize/target/object-size-1.0.0-jar-with-dependencies.jar</systemPath>
+            <systemPath>../ObjectSize/target/object-size-1.0.0-jar-with-dependencies.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.openjdk.jol</groupId>

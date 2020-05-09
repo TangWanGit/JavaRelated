@@ -6,6 +6,8 @@
  */
 package com.tangwan.disruptor.v1;
 
+import java.util.concurrent.atomic.AtomicLong;
+
 import com.lmax.disruptor.EventHandler;
 
 /**
@@ -15,9 +17,11 @@ import com.lmax.disruptor.EventHandler;
  * @since JDK 1.8
  */
 public class LongEventHandler implements EventHandler<LongEvent> {
+    public static AtomicLong count = new AtomicLong();
 
     @Override
     public void onEvent(LongEvent event, long sequence, boolean endOfBatch) throws Exception {
-        System.out.println(event.getValue() + " " + sequence + " " + endOfBatch);
+        count.incrementAndGet();
+        System.out.println("[" + Thread.currentThread().getName() + "]" + event + " 序号：" + sequence);
     }
 }
