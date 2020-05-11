@@ -24,6 +24,9 @@ public class T07_EventTimesOddTimes {
         System.out.println(a);
         System.out.println(b);
 
+        System.out.println(Integer.toBinaryString(a));
+        System.out.println(bit1counts(a));
+
         int[] arr1 = {3, 3, 2, 3, 1, 1, 1, 3, 1, 1, 1};
         printOddTimesNum1(arr1);
 
