@@ -15,6 +15,7 @@
         <module>JVM</module>
         <module>JMH</module>
         <module>Algorithm</module>
+        <module>Java8</module>
     </modules>
 
     <!--    <build>-->
