@@ -32,7 +32,6 @@ public class T03_DoubleEndsQueueToStackAndQueue {
                 if (stack.isEmpty()) {
                     myStack.push(nums);
                     stack.push(nums);
-
                 } else {
                     if (Math.random() < 0.5) {
                         myStack.push(nums);
