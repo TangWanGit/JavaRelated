@@ -11,6 +11,11 @@ import java.util.Stack;
 /**
  * @author Zhao Xiaoli
  * @Description : T06_TwoStackImplementQueue
+ * 使用两个栈实现一个队列
+ * <p>
+ * 添加时： 向stackPush中添加，若stackPop为空，则将push中的数据pop出去
+ * 弹出时： 当queue不为空时，从stackPop中弹出，若stackPop为空，则先将push中的数据弹到pop中，再弹出
+ * <p>
  * @date 2020-05-18 15:51
  * @since JDK 1.8
  */
