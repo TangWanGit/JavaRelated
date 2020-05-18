@@ -13,6 +13,11 @@ import java.util.Stack;
 /**
  * @author tangwan
  * @Description : T07_TwoQueueImplementStack
+ * <p>
+ * 使用两个queue实现一个stack
+ * 添加时：向queue中添加数据
+ * 删除时：保留queue的最后一个数据，将其他的数据都转移到help中，然后将help和queu互换，返回数据
+ * <p>
  * @date 2020-05-18 15:56
  * @since JDK 1.8
  */
