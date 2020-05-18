@@ -1,13 +1,13 @@
 /*
- * File Name:T04_synchronzed is created on 2020-05-07 16:28 by Zhao Xiaoli
+ * File Name:T04_synchronzed is created on 2020-05-07 16:28 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.juc.c0_basic;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_synchronzed
  * @date 2020-05-07 16:28
  * @since JDK 1.8

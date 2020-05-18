@@ -8,7 +8,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : SortBean
  * @date 2020-05-12 10:28
  * @since JDK 1.8

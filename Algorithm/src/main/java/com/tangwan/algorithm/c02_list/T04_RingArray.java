@@ -1,13 +1,13 @@
 /*
- * File Name:T04_RingArray is created on 2020-05-17 12:48 by Zhao Xiaoli
+ * File Name:T04_RingArray is created on 2020-05-17 12:48 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c02_list;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T04_RingArray
  * 环形queue，使用数组实现可利用的队列
  * @date 2020-05-17 12:48

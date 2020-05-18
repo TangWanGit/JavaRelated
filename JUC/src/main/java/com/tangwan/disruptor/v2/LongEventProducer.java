@@ -1,7 +1,7 @@
 /*
- * File Name:LongEventProducer is created on 2020-05-08 17:29 by Zhao Xiaoli
+ * File Name:LongEventProducer is created on 2020-05-08 17:29 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.disruptor.v2;
@@ -12,7 +12,7 @@ import com.lmax.disruptor.EventTranslatorOneArg;
 import com.lmax.disruptor.RingBuffer;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : LongEventProducer
  * @date 2020-05-08 17:29
  * @since JDK 1.8

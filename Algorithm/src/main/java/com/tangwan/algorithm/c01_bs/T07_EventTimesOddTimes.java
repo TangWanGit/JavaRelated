@@ -1,13 +1,13 @@
 /*
- * File Name:T07_EventTimesOddTimes is created on 2020-05-10 23:48 by Zhao Xiaoli
+ * File Name:T07_EventTimesOddTimes is created on 2020-05-10 23:48 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c01_bs;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T07_EventTimesOddTimes
  * @date 2020-05-10 23:48
  * @since JDK 1.8

@@ -1,13 +1,13 @@
 /*
- * File Name:T01_WriteCombining is created on 2020-05-07 15:54 by Zhao Xiaoli
+ * File Name:T01_WriteCombining is created on 2020-05-07 15:54 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.juc.c16_writeCombining;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_WriteCombining
  * <p>
  * 合并行

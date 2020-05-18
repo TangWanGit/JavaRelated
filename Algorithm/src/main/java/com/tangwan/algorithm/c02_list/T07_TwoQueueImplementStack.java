@@ -1,7 +1,7 @@
 /*
- * File Name:T07_TwoQueueImplementStack is created on 2020-05-18 15:56 by Zhao Xiaoli
+ * File Name:T07_TwoQueueImplementStack is created on 2020-05-18 15:56 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c02_list;
@@ -11,7 +11,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T07_TwoQueueImplementStack
  * @date 2020-05-18 15:56
  * @since JDK 1.8

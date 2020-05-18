@@ -1,7 +1,7 @@
 /*
- * File Name:T16_ListenableFuture is created on 2020-05-07 15:29 by Zhao Xiaoli
+ * File Name:T16_ListenableFuture is created on 2020-05-07 15:29 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.juc.c14_ThreadPool;
@@ -17,7 +17,7 @@ import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T16_ListenableFuture
  * 代码不好维护
  * @date 2020-05-07 15:29

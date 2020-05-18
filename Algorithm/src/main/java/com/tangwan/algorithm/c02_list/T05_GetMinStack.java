@@ -1,7 +1,7 @@
 /*
- * File Name:T05_GetMinStack is created on 2020-05-17 13:00 by Zhao Xiaoli
+ * File Name:T05_GetMinStack is created on 2020-05-17 13:00 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c02_list;
@@ -9,7 +9,7 @@ package com.tangwan.algorithm.c02_list;
 import java.util.Stack;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T05_GetMinStack
  * 两种获取stack中最小值的结构，获取最小值的复杂度为 O(1)
  * @date 2020-05-17 13:00

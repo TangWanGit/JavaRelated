@@ -1,13 +1,13 @@
 /*
- * File Name:T02_DeleteGivenValue is created on 2020-05-12 10:30 by Zhao Xiaoli
+ * File Name:T02_DeleteGivenValue is created on 2020-05-12 10:30 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c02_list;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T02_DeleteGivenValue
  * @date 2020-05-12 10:30
  * @since JDK 1.8

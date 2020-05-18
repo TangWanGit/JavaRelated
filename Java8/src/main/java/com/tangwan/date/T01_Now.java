@@ -1,7 +1,7 @@
 /*
- * File Name:T01_Now is created on 2020-05-12 10:24 by Zhao Xiaoli
+ * File Name:T01_Now is created on 2020-05-12 10:24 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.date;
@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_Now
  * @date 2020-05-12 10:24
  * @since JDK 1.8

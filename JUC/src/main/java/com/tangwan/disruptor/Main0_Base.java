@@ -1,7 +1,7 @@
 /*
- * File Name:Main_Base is created on 2020-05-09 11:56 by Zhao Xiaoli
+ * File Name:Main_Base is created on 2020-05-09 11:56 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.disruptor;
@@ -17,7 +17,7 @@ import com.tangwan.disruptor.v1.LongEvent;
 import com.tangwan.disruptor.v1.LongEventHandler;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : Main_Base
  * @date 2020-05-09 11:56
  * @since JDK 1.8

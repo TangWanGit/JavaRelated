@@ -1,7 +1,7 @@
 /*
- * File Name:PS is created on 2020-05-09 15:34 by Zhao Xiaoli
+ * File Name:PS is created on 2020-05-09 15:34 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.jmh;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : PS
  * @date 2020-05-09 15:34
  * @since JDK 1.8

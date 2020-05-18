@@ -1,13 +1,13 @@
 /*
- * File Name:T06_BSAwesome is created on 2020-05-10 23:38 by Zhao Xiaoli
+ * File Name:T06_BSAwesome is created on 2020-05-10 23:38 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c01_bs;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T06_BSAwesome
  * @date 2020-05-10 23:38
  * @since JDK 1.8

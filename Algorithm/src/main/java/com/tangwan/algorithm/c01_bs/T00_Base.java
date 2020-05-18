@@ -1,7 +1,7 @@
 /*
- * File Name:T00_Base is created on 2020-05-10 21:34 by Zhao Xiaoli
+ * File Name:T00_Base is created on 2020-05-10 21:34 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c01_bs;
@@ -9,7 +9,7 @@ package com.tangwan.algorithm.c01_bs;
 import java.util.Arrays;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T00_Base
  * @date 2020-05-10 21:34
  * @since JDK 1.8

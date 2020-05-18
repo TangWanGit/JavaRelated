@@ -1,7 +1,7 @@
 /*
- * File Name:T06_TwoStackImplementQueue is created on 2020-05-18 15:51 by Zhao Xiaoli
+ * File Name:T06_TwoStackImplementQueue is created on 2020-05-18 15:51 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c02_list;
@@ -9,7 +9,7 @@ package com.tangwan.algorithm.c02_list;
 import java.util.Stack;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T06_TwoStackImplementQueue
  * 使用两个栈实现一个队列
  * <p>

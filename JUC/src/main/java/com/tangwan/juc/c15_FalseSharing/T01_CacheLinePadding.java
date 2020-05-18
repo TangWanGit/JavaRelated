@@ -1,7 +1,7 @@
 /*
- * File Name:T01_CacheLinePadding is created on 2020-05-07 15:33 by Zhao Xiaoli
+ * File Name:T01_CacheLinePadding is created on 2020-05-07 15:33 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.juc.c15_FalseSharing;
@@ -9,7 +9,7 @@ package com.tangwan.juc.c15_FalseSharing;
 import com.google.common.base.Stopwatch;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_CacheLinePadding
  * @date 2020-05-07 15:33
  * @since JDK 1.8

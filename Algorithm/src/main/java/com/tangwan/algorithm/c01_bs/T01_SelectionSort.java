@@ -1,13 +1,13 @@
 /*
- * File Name:T01_SelectionSort is created on 2020-05-10 21:11 by Zhao Xiaoli
+ * File Name:T01_SelectionSort is created on 2020-05-10 21:11 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c01_bs;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_SelectionSort
  * <p>
  * 选择排序

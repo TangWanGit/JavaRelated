@@ -8,9 +8,9 @@ import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.Warmup;
 
 /*
- * File Name:PSTest is created on 2020-05-09 15:38 by Zhao Xiaoli
+ * File Name:PSTest is created on 2020-05-09 15:38 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 public class PSTest {

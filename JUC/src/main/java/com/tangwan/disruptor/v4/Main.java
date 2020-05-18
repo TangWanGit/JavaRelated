@@ -1,7 +1,7 @@
 /*
- * File Name:Main is created on 2020-05-08 16:52 by Zhao Xiaoli
+ * File Name:Main is created on 2020-05-08 16:52 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.disruptor.v4;
@@ -13,7 +13,7 @@ import com.lmax.disruptor.RingBuffer;
 import com.lmax.disruptor.dsl.Disruptor;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : Main
  * @date 2020-05-08 16:52
  * @since JDK 1.8

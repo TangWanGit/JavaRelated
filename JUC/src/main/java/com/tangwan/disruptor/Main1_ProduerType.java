@@ -1,7 +1,7 @@
 /*
- * File Name:Main_ProduerType is created on 2020-05-09 11:53 by Zhao Xiaoli
+ * File Name:Main_ProduerType is created on 2020-05-09 11:53 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.disruptor;
@@ -17,7 +17,7 @@ import com.tangwan.disruptor.v1.LongEventFactory;
 import com.tangwan.disruptor.v1.LongEventHandler;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : Main_ProduerType
  * @date 2020-05-09 11:53
  * @since JDK 1.8

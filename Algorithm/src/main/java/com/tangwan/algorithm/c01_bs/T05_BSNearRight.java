@@ -1,13 +1,13 @@
 /*
- * File Name:T05_BSNearRight is created on 2020-05-10 23:25 by Zhao Xiaoli
+ * File Name:T05_BSNearRight is created on 2020-05-10 23:25 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c01_bs;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T05_BSNearRight
  * @date 2020-05-10 23:25
  * @since JDK 1.8

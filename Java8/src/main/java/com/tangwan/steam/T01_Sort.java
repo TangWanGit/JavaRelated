@@ -1,7 +1,7 @@
 /*
- * File Name:T01_Sort is created on 2020-05-12 10:27 by Zhao Xiaoli
+ * File Name:T01_Sort is created on 2020-05-12 10:27 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.steam;
@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_Sort
  * @date 2020-05-12 10:27
  * @since JDK 1.8

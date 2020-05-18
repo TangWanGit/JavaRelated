@@ -1,7 +1,7 @@
 /*
- * File Name:T01_ReverseList is created on 2020-05-11 09:40 by Zhao Xiaoli
+ * File Name:T01_ReverseList is created on 2020-05-11 09:40 by tangwan
  *
- * Copyright (c) 2020, xiaoyujiaoyu technology All Rights Reserved.
+ * tangwan
  *
  */
 package com.tangwan.algorithm.c02_list;
@@ -9,7 +9,7 @@ package com.tangwan.algorithm.c02_list;
 import java.util.ArrayList;
 
 /**
- * @author Zhao Xiaoli
+ * @author tangwan
  * @Description : T01_ReverseList
  * 反转链表
  * @date 2020-05-11 09:40
