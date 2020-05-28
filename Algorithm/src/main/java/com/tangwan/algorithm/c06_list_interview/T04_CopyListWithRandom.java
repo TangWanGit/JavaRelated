@@ -11,6 +11,7 @@ import java.util.HashMap;
 /**
  * @author Zhao Xiaoli
  * @Description : T04_CopyListWithRandom
+ * 复制带有随机节点的链表
  * @date 2020-05-28 09:32
  * @since JDK 1.8
  */
