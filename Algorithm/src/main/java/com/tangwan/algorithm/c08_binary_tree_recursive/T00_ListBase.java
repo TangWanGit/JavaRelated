@@ -6,6 +6,8 @@
  */
 package com.tangwan.algorithm.c08_binary_tree_recursive;
 
+import java.util.function.Function;
+
 import com.tangwan.algorithm.c07_binary_tree.BinaryTree;
 
 /**
@@ -15,6 +17,24 @@ import com.tangwan.algorithm.c07_binary_tree.BinaryTree;
  * @since JDK 1.8
  */
 public class T00_ListBase {
+
+    public static void logarithmicDetector(Function<BinaryTree, Boolean> function) {
+        int maxLevel = 5;
+        int maxValue = 100;
+        int testTimes = 1000_000;
+        System.out.println("test begin");
+
+        for (int i = 0; i < testTimes; i++) {
+            BinaryTree binaryTree = generateRandomTree(maxLevel, maxValue);
+            Boolean result = function.apply(binaryTree);
+            if (!result) {
+                System.out.println("Oops");
+                break;
+            }
+        }
+
+        System.out.println("test end");
+    }
 
     public static BinaryTree generateRandomTree(int maxLevel, int maxValue) {
         return generate(1, maxLevel, maxValue);

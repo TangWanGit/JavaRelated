@@ -17,19 +17,9 @@ import com.tangwan.algorithm.c07_binary_tree.BinaryTree;
  */
 public class T01_IsBalanced extends T00_ListBase {
     public static void main(String[] args) {
-        int maxLevel = 5;
-        int maxValue = 100;
-        int testTimes = 100_000;
-        for (int i = 0; i < testTimes; i++) {
-            BinaryTree head = generateRandomTree(maxLevel, maxValue);
-            if (isBalanced1(head) != isBalanced2(head)) {
-                System.out.println("Oops");
-                break;
-            }
-        }
-
+        logarithmicDetector((t) -> isBalanced1(t) == isBalanced2(t));
     }
-    
+
     public static boolean isBalanced1(BinaryTree head) {
         boolean[] ans = new boolean[1];
         ans[0] = true;
@@ -39,7 +29,7 @@ public class T01_IsBalanced extends T00_ListBase {
 
     private static int process1(boolean[] ans, BinaryTree head) {
         if (!ans[0] || head == null) {
-            return -1;
+            return 0;
         }
 
         int leftHeight = process1(ans, head.left);
