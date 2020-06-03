@@ -6,6 +6,10 @@
  */
 package com.tangwan.algorithm.c08_binary_tree_recursive;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 
 import com.tangwan.algorithm.c07_binary_tree.BinaryTree;
@@ -48,5 +52,40 @@ public class T00_ListBase {
         head.left = generate(level + 1, maxLevel, maxValue);
         head.right = generate(level + 1, maxLevel, maxValue);
         return head;
+    }
+
+    protected static Map<BinaryTree, BinaryTree> getParentMap(BinaryTree head) {
+        Map<BinaryTree, BinaryTree> parentMap = new HashMap<>();
+        parentMap.put(head, null);
+        fillParentMap(head, parentMap);
+        return parentMap;
+    }
+
+    protected static List<BinaryTree> getPrelist(BinaryTree head) {
+        List<BinaryTree> arr = new ArrayList<>();
+        fillPreList(arr, head);
+        return arr;
+    }
+
+
+    private static void fillPreList(List<BinaryTree> arr, BinaryTree head) {
+        if (head == null) {
+            return;
+        }
+        arr.add(head);
+        fillPreList(arr, head.left);
+        fillPreList(arr, head.right);
+    }
+
+
+    protected static void fillParentMap(BinaryTree head, Map<BinaryTree, BinaryTree> parentMap) {
+        if (head.left != null) {
+            parentMap.put(head.left, head);
+            fillParentMap(head.left, parentMap);
+        }
+        if (head.right != null) {
+            parentMap.put(head.right, head);
+            fillParentMap(head.right, parentMap);
+        }
     }
 }

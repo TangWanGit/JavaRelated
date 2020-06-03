@@ -6,8 +6,6 @@
  */
 package com.tangwan.algorithm.c08_binary_tree_recursive;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -36,9 +34,7 @@ public class T07_LowestAncestor extends T00_ListBase {
         if (head == null) {
             return null;
         }
-        Map<BinaryTree, BinaryTree> parentMap = new HashMap<>();
-        parentMap.put(head, null);
-        fillParentMap(head, parentMap);
+        Map<BinaryTree, BinaryTree> parentMap = getParentMap(head);
 
         Set<BinaryTree> o1Set = new HashSet<>();
         BinaryTree cur = o1;
@@ -55,35 +51,15 @@ public class T07_LowestAncestor extends T00_ListBase {
         return cur;
     }
 
-    private static void fillParentMap(BinaryTree head, Map<BinaryTree, BinaryTree> parentMap) {
-        if (head.left != null) {
-            parentMap.put(head.left, head);
-            fillParentMap(head.left, parentMap);
-        }
-        if (head.right != null) {
-            parentMap.put(head.right, head);
-            fillParentMap(head.right, parentMap);
-        }
-    }
-
     private static BinaryTree pickRandomOne(BinaryTree head) {
         if (head == null) {
             return null;
         }
 
-        List<BinaryTree> arr = new ArrayList<>();
-        fillPreList(arr, head);
+        List<BinaryTree> arr = getPrelist(head);
+
         Integer random = (int)Math.random() * arr.size();
         return arr.get(random);
-    }
-
-    private static void fillPreList(List<BinaryTree> arr, BinaryTree head) {
-        if (head == null) {
-            return;
-        }
-        arr.add(head);
-        fillPreList(arr, head.left);
-        fillPreList(arr, head.right);
     }
 
     private static BinaryTree lowestAncestor2(BinaryTree head, BinaryTree o1, BinaryTree o2) {
