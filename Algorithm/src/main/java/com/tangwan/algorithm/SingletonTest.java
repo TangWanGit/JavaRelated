@@ -14,6 +14,9 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 
 /**
  * @author Zhao Xiaoli
@@ -23,7 +26,11 @@ import java.lang.reflect.InvocationTargetException;
  */
 public class SingletonTest {
     public static void main(String[] args) {
-        useIO();
+        long monthAgo = LocalDateTime.ofInstant(Instant.ofEpochSecond(1585559351), ZoneOffset.UTC).minusMonths(1).toInstant(ZoneOffset.UTC)
+            .getEpochSecond();
+        System.out.println(monthAgo);
+
+        //useIO();
     }
 
     public static void userReflect() {
