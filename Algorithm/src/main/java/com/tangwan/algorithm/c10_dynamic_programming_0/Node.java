@@ -1,0 +1,24 @@
+package com.tangwan.algorithm.c10_dynamic_programming_0;
+
+import java.util.ArrayList;
+
+// 点结构的描述  A  0
+public class Node {
+	public int value;
+	public int in;
+	public int out;
+	public ArrayList<Node> nexts;
+	public ArrayList<Edge> edges;
+
+	public Node(int value) {
+		this.value = value;
+		in = 0;
+		out = 0;
+		nexts = new ArrayList<>();
+		edges = new ArrayList<>();
+	}
+
+	public void addNext(Node node){
+        nexts.add(node);
+    }
+}

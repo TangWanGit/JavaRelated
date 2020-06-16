@@ -4,7 +4,9 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Code05_IPO {
-
+    public static void main(String[] args) {
+        //findMaximizedCapital(0, 0, );
+    }
 	public static int findMaximizedCapital(int K, int W, int[] Profits, int[] Capital) {
 		PriorityQueue<Program> minCostQ = new PriorityQueue<>(new MinCostComparator());
 		PriorityQueue<Program> maxProfitQ = new PriorityQueue<>(new MaxProfitComparator());
