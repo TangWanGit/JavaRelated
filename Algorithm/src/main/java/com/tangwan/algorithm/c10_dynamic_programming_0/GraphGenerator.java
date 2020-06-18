@@ -63,7 +63,29 @@ public class GraphGenerator {
         matrix[7][0] = 4;
         matrix[7][1] = 4;
         matrix[7][2] = 5;
-
         return createGraph(matrix);
+    }
+
+    // 请保证graph是连通图
+    // graph[i][j]表示点i到点j的距离，如果是系统最大值代表无路
+    // 返回值是最小连通图的路径之和
+    public static int[][] graph() {
+        int[][] graph = new int[6][6];
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                graph[i][j] = Integer.MAX_VALUE;
+            }
+        }
+        graph[0][1] = 0;
+        graph[0][2] = 0;
+        graph[0][3] = 0;
+
+        graph[1][4] = 1;
+        graph[3][4] = 3;
+        graph[3][5] = 3;
+        graph[2][5] = 2;
+        graph[4][5] = 4;
+
+        return graph;
     }
 }
