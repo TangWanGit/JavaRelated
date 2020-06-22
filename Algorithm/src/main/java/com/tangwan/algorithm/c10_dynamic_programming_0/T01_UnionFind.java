@@ -31,6 +31,9 @@ public class T01_UnionFind {
         public HashMap<Node<V>, Integer> sizeMap;
 
         public UnionSet(List<V> values) {
+            nodes = new HashMap<>();
+            parents = new HashMap<>();
+            sizeMap = new HashMap<>();
             for (V value : values) {
                 Node<V> node = new Node<>(value);
                 nodes.put(value, node);
@@ -77,6 +80,10 @@ public class T01_UnionFind {
                 sizeMap.put(big, aSetSize + bSetSize);
                 sizeMap.remove(small);
             }
+        }
+
+        public int getSetNum() {
+            return sizeMap.size();
         }
     }
 }
