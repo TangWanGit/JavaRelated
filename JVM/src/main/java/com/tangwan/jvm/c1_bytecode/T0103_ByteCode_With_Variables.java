@@ -46,6 +46,6 @@ package com.tangwan.jvm.c1_bytecode;
  * <p>
  */
 public class T0103_ByteCode_With_Variables {
-    int i = 0;
+    int i = 1;
     String s = "Hello ByteCode !";
 }
