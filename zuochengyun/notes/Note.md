@@ -90,28 +90,47 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 1.2 由两个栈组成的队列
 
 ### 题目：
 
-### 要求：
+​	编写一个类，用两个栈实现队列，支持队列的基本操作（add、poll、peek）
 
 ### 难度：
 
+​	尉 两颗星
+
 ### 解答：
+
+​	栈的特点是FILO，而队列的特点是FIFO。使用两个栈正好能把顺序反过来实现类似队列的操作.
+
+​	具体实现是：
+
+-  一个栈作为压入，在压入数据的时候只往这个栈中压入，记为stackPush
+- 另一个栈作为弹出栈，在弹出数据的时候只从这个栈弹出，记为stackPop
+
+
+
+​	因为数据压入栈的时候，顺序是FILO的，那么只要把stackPush中的数据再压入stackPop中，顺序就变成FIFO了。
+
+​	例如，将1~5依次压入stackPush，那么从stackPush的栈顶到栈底为5~1，此时依次再讲5~1倒入stackPop，那么从stackPop的栈顶到栈底就变成了1~5.再从stackPop弹出时，顺序就像队列一样，如下图所示。
+
+![image-20200713170741628](image-20200713170741628.png)
+
+
+
+> tips：
+>
+> 上述过程需注意两点：
+>
+> 1. 如果stackPush要往stackPop中压入数据，那么必须一次性把stackPush中的数据全部压入
+> 2. 如果stackPop不为空，stackPush绝对不能向stackPop中压入数据
+>
+> 违反了以上两点都会发生错误。
+
+
+
+### 代码
+
+​	com.tangwan.zuochengyun.chapter01_StackAndQueue.T02_QueueConsistingOfTwoStacks
+
