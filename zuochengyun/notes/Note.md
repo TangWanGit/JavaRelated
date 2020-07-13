@@ -134,3 +134,66 @@
 
 ​	com.tangwan.zuochengyun.chapter01_StackAndQueue.T02_QueueConsistingOfTwoStacks
 
+
+
+## 1.3 如何仅用递归函数和栈操作逆序一个栈
+
+### 题目
+
+​	一个栈依次压入1、2、3、4、5，那么从栈顶到栈底分别是5、4、3、2、1。将这个栈转置后，从栈顶到栈底为1、2、3、4、5，也就是实现栈中元素的逆序，但是只能用递归函数来实现，不能使用其他数据结构
+
+###难度
+
+​	尉 两颗星
+
+### 解答
+
+​	本题考查的操作和递归函数的设计，我们需要设计出两个递归函数。
+
+
+
+递归函数一：将栈stack的栈底元素返回并移除
+具体过程如代码`getAndRemoveLastElement`方法
+
+```java
+    private static int getAndRemoveLastElement(Stack<Integer> stack) {
+        Integer result = stack.pop();
+        if (stack.isEmpty()) {
+            return result;
+        } else {
+            int last = getAndRemoveLastElement(stack);
+            stack.push(result);
+            return last;
+        }
+    }
+```
+
+如果从栈stack的栈顶到栈底依次为3、2、1，这个函数的具体过程如图1-4所示。
+
+![image-20200713191757205](image-20200713191757205.png)
+
+
+
+递归函数二：逆序一个栈
+
+```
+    public static void reverse(Stack<Integer> stack) {
+        if (stack.isEmpty()) {
+            return;
+        }
+
+        int i = getAndRemoveLastElement(stack);
+        reverse(stack);
+        stack.push(i);
+    }
+```
+
+如果从stack的栈顶到栈底依次为3、2、1，reverse函数的具体过程如图所示：
+
+![image-20200713191903578](image-20200713191903578.png)
+
+> tips：
+> ​	getAndRemoveLastElement方法在上图中简单表示为get方法，表示移除并返回当前栈底元素
+
+
+
