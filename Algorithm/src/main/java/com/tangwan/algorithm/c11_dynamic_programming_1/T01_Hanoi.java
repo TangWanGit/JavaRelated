@@ -17,7 +17,7 @@ import java.util.Stack;
  */
 public class T01_Hanoi {
     public static void main(String[] args) {
-        int n = 3;
+        int n = 2;
         hanoi1(n);
         System.out.println("=======================");
         hanoi2(n);
