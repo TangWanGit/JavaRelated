@@ -17,8 +17,8 @@ import java.util.Stack;
  */
 public class T09_MaxRecSize {
     public static void main(String[] args) {
-        int[][] arr = {{1}, {1}, {1}, {0}};
-        System.out.println(maxRecSize(arr));
+        //int[][] arr = {{1}, {1}, {1}, {0}};
+        //System.out.println(maxRecSize(arr));
 
         int[][] arr2 = {{1, 0, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 0}};
         System.out.println(maxRecSize(arr2));
@@ -50,6 +50,9 @@ public class T09_MaxRecSize {
             while ((!stack.isEmpty()) && height[i] <= height[stack.peek()]) {
                 int j = stack.pop();
                 int k = stack.isEmpty() ? -1 : stack.peek();
+                // j  向右最大能扩到i位置
+                // j  向左最大能扩到k+1位置
+                // 故 一共能扩的最大位置为i-(k+1)位置
                 int curArea = (i - k - 1) * height[j];
                 maxArea = Math.max(maxArea, curArea);
             }

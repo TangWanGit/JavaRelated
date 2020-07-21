@@ -760,13 +760,37 @@ com.tangwan.zuochengyun.chapter01_StackAndQueue.T09_MaxRecSize
 
 ### 题目
 
+​	给定数组arr和整数num，共返回有多少个子数组满足如下情况：
+
+- max(arr[i...j]) - min[arr[i...j]] <= num
+- max(arr[i...j])表示数组arr[i…j]中的最大值
+- mim(arr[i...j])表示数组arr[i…j]中的最小值
+
 ### 要求
+
+​	如果数组长度为N，请事先时间复杂度为$$O(N)$$的解法
 
 ###难度
 
+​	校 三颗星
+
 ### 解答
 
+​	类似于”生成窗口最大值数组“问题。
 
+​	生成两个双端队列qmax和qmin。
+
+#### 代码位置
+
+​	com.tangwan.zuochengyun.chapter01_StackAndQueue.T10_GetNum
+
+
+
+# 2. 链表操作
+
+## ​2.1 	
+
+​	
 
 
 
