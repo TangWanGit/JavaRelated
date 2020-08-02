@@ -52,7 +52,7 @@ package com.tangwan.jvm.c1_bytecode;
  * 0000 0001 0014 0000 0002 0015
  * <p>
  */
-public class T0105_ByteCode_With_ALL {
+public class T0105_ByteCode_With_ALL implements Cloneable {
     int i = 0;
     String s = "Hello ByteCode !";
 
@@ -61,7 +61,12 @@ public class T0105_ByteCode_With_ALL {
         this.s = s;
     }
 
-    public void m() {
+    public int m() {
+        int x =5;
+        return x;
+    }
+
+    public static void sm() {
     }
 
 }

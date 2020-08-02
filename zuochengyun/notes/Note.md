@@ -788,7 +788,21 @@ com.tangwan.zuochengyun.chapter01_StackAndQueue.T09_MaxRecSize
 
 # 2. 链表操作
 
-## ​2.1 	
+## 2.1 	打印两个有序链表的公共部分
+
+### 题目
+
+​	给定两个有序链表的头指针head1和head2，打印两个链表的公共部分。
+
+
+
+###难度
+
+​	士 一颗星
+
+### 解答
+
+
 
 ​	
 
