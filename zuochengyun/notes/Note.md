@@ -796,12 +796,40 @@ com.tangwan.zuochengyun.chapter01_StackAndQueue.T09_MaxRecSize
 
 
 
+### 难度
+
+​	士 一颗星
+
+### 解答
+​	因为是有序链表，所以从两个链表的头开始进行如下判断：
+
+- 如果head1等于head2，则获取到公共部分Node，整个过程停止
+- 如果head1的值小于head2的值，则head1往下移动
+- 如果head1的值大于head2的值，则head2往下移动
+- head1或者head2有任何一个移动到null，整个过程停止
+- 获取到公共部分，打印即可
+### 代码位置
+com.tangwan.zuochengyun.chapter02_List.T01_PrintListCommonPart
+
+​	
+
+## 2.2 在单链表和双链表中删除倒数第K个节点
+
+### 题目
+
+​	分别实现两个函数，一个可以删除单链表中倒数第K个节点，另一个可以删除双链表中倒数第K个节点。
+
+### 要求
+
+​	如果链表长度为N，时间复杂度达到$$O(N)$$, 额外空间复杂度达到$$O(1)$$
+
 ###难度
 
 ​	士 一颗星
 
 ### 解答
 
+​	当
 
 
 ​	
