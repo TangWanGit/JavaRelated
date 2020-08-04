@@ -22,6 +22,7 @@ public class ClassLoaderTest {
         Object obj = myClassLoader.loadClass("com.tangwan.jvm.classloading.ClassLoaderTest").newInstance();
         System.out.println(obj.getClass());
         System.out.println(obj.getClass().getClassLoader());
+        System.out.println(ClassLoaderTest.class.getClassLoader());
         System.out.println(obj instanceof ClassLoaderTest);
     }
 

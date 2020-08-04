@@ -829,10 +829,7 @@ com.tangwan.zuochengyun.chapter02_List.T01_PrintListCommonPart
 
 ### 解答
 
-​	当
-
-
-​	
+​	单链表
 
 
 
