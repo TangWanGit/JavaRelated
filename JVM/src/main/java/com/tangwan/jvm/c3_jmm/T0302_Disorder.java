@@ -28,16 +28,18 @@ public class T0302_Disorder {
             a = 0;
             b = 0;
 
+            // 第一个线程是a=1，x=b
+            // 顺序执行的话会产生，0、1，1、0，1、1，不会产生0、0
             Thread one = new Thread(() -> {
                 //由于线程one先启动，下面这句话让它等一等线程two. 读着可根据自己电脑的实际性能适当调整等待时间.
                 shortWait(1000000);
-                a = 1;
-                x = b;
+                a = 1;// 1
+                x = b;// 有可能是0也有可能是1
             });
 
             Thread other = new Thread(() -> {
-                b = 1;
-                y = a;
+                b = 1;// 1
+                y = a;// 有可能是0也有可能是1
             });
 
             one.start();
@@ -47,6 +49,7 @@ public class T0302_Disorder {
             other.join();
 
             String result = "第" + i + "次 (" + x + "," + y + ") ";
+            // 只要有一次是0、0情况一定是发生了重排
             if (x == 0 && y == 0) {
                 System.err.println(result);
                 break;

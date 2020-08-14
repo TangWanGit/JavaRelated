@@ -29,26 +29,26 @@ com.tangwan.juc.c0_basic.T05_DeadLock
 Found one Java-level deadlock:
 =============================
 "Thread-1":
-  waiting to lock monitor 0x00007fb682829748 (object 0x00000007956ffbd8, a java.lang.String),
+  waiting to lock monitor 0x00007fb682829748 (object 0x00000007956ffbd8, a java.java.lang.String),
   which is held by "Thread-0"
 "Thread-0":
-  waiting to lock monitor 0x00007fb682829958 (object 0x00000007955b25a8, a java.lang.Integer),
+  waiting to lock monitor 0x00007fb682829958 (object 0x00000007955b25a8, a java.java.lang.Integer),
   which is held by "Thread-1"
 
 Java stack information for the threads listed above:
 ===================================================
 "Thread-1":
 	at com.tangwan.juc.c0_basic.T05_DeadLock$DeadLock.getId(T05_DeadLock.java:51)
-	- waiting to lock <0x00000007956ffbd8> (a java.lang.String)
-	- locked <0x00000007955b25a8> (a java.lang.Integer)
+	- waiting to lock <0x00000007956ffbd8> (a java.java.lang.String)
+	- locked <0x00000007955b25a8> (a java.java.lang.Integer)
 	at com.tangwan.juc.c0_basic.T05_DeadLock$$Lambda$2/1922154895.run(Unknown Source)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.java.lang.Thread.run(Thread.java:748)
 "Thread-0":
 	at com.tangwan.juc.c0_basic.T05_DeadLock$DeadLock.getName(T05_DeadLock.java:37)
-	- waiting to lock <0x00000007955b25a8> (a java.lang.Integer)
-	- locked <0x00000007956ffbd8> (a java.lang.String)
+	- waiting to lock <0x00000007955b25a8> (a java.java.lang.Integer)
+	- locked <0x00000007956ffbd8> (a java.java.lang.String)
 	at com.tangwan.juc.c0_basic.T05_DeadLock$$Lambda$1/1313922862.run(Unknown Source)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.java.lang.Thread.run(Thread.java:748)
 
 Found 1 deadlock.
 ```

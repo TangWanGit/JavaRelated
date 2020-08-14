@@ -1,7 +1,7 @@
 package com.tangwan.juc.c8_varHandle;//package com.mashibing.juc.c_021_03_VarHandle;
 //
-//import java.lang.invoke.MethodHandles;
-//import java.lang.invoke.VarHandle;
+//import java.java.lang.invoke.MethodHandles;
+//import java.java.lang.invoke.VarHandle;
 // java9
 //public class T01_HelloVarHandle {
 //

@@ -15,17 +15,26 @@ package com.tangwan.jvm.classloading;
  */
 public class SuperClass {
     static {
+        value = 340;
         System.out.println("SuperClass init.");
     }
 
-    public static final int value = 123;
+    public static int value = 123;
 
+    public SuperClass() {
+        System.out.println("su[er");
+    }
 }
 
 class SubClass extends SuperClass {
     static {
         System.out.println("SubClass init.");
     }
+
+    public SubClass() {
+        System.out.println("ps sub");
+    }
+
 }
 
 class ConstClass {
@@ -38,7 +47,7 @@ class ConstClass {
 
 class Main {
     public static void main(String[] args) {
-        System.out.println(ConstClass.H);
+        System.out.println(SubClass.value);
     }
 }
 

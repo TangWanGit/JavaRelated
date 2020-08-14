@@ -17,6 +17,7 @@ public class T0208_WayToRun {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         for (int i = 0; i < 10_0000; i++) {
+            // 方法计数器，会进行编译
             m();
         }
         long end = System.currentTimeMillis();
@@ -31,7 +32,8 @@ public class T0208_WayToRun {
     }
 
     public static void m() {
-        for (int i = 0; i < 10_0000; i++) {
+        // 循环计数器，会进行热点编译
+        for (int i = 0; i < 100_0000; i++) {
             long j = i % 3;
         }
     }

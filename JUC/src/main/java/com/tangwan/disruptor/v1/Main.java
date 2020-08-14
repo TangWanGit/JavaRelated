@@ -30,7 +30,7 @@ public class Main {
         disruptor.start();
 
         RingBuffer<LongEvent> ringBuffer = disruptor.getRingBuffer();
-
+ringBuffer.next();
         LongEventProducer producer = new LongEventProducer(ringBuffer);
 
         ByteBuffer bb = ByteBuffer.allocate(8);

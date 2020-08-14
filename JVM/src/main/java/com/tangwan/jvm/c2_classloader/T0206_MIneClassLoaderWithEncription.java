@@ -63,6 +63,9 @@ public class T0206_MIneClassLoaderWithEncription extends ClassLoader {
      */
     public static void main(String[] args)
         throws ClassNotFoundException, IllegalAccessException, InstantiationException, IOException {
+        Hello s = new Hello();
+        s.m();
+
         encFile("com.tangwan.jvm.Hello");
 
         ClassLoader l = new T0206_MIneClassLoaderWithEncription();
@@ -70,6 +73,8 @@ public class T0206_MIneClassLoaderWithEncription extends ClassLoader {
 
         Hello h = (Hello)clazz.newInstance();
         h.m();
+
+        System.out.println(s.getClass() == h.getClass());
 
         System.out.println(l.getClass().getClassLoader());
         System.out.println(l.getParent());
@@ -81,7 +86,7 @@ public class T0206_MIneClassLoaderWithEncription extends ClassLoader {
         FileInputStream fis = new FileInputStream(f);
         FileOutputStream fos = new FileOutputStream(
             new File("/Users/sunshine/Documents/zhaoxl/mine/git/tangwan/JavaRelated/jvm/target/classes",
-                name.replace(".", "/").concat("m.class")));
+                name.replace(".", "/").concat(".mclass")));
 
         int b = 0;
         while ((b = fis.read()) != -1) {
