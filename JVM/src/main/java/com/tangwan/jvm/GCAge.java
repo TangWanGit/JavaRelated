@@ -50,13 +50,19 @@ import org.openjdk.jol.info.ClassLayout;
  */
 public class GCAge {
     public static void main(String[] args) throws InterruptedException {
-        testP();
+        //testP();
 
         //testUser();
 
         //System.out.println("-------------------");
 
         //testPersen();
+        Object o = new Object();
+        System.err.println(ClassLayout.parseInstance(o).toPrintable());
+        Thread.sleep(5000);
+        synchronized (o) {
+            System.err.println(ClassLayout.parseInstance(o).toPrintable());
+        }
     }
 
     static void testP() {
@@ -91,7 +97,16 @@ public class GCAge {
         System.gc();
         System.out.println("------------------------");
 
-        print(p);
+        //
+        //print(p);
+        //
+        //synchronized (p) {
+        //    System.err.println("\n---------------------\n");
+        //    print(p);
+        //}
+        //
+        //System.gc();
+        //print(p);
     }
 
     static void print(Person p) {

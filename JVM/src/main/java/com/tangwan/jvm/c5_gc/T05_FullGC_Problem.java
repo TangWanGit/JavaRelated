@@ -10,7 +10,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -18,14 +17,21 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author tangwan
  * @Description : T05_FullGC_Problem
+ * 作用：启动一个ScheduledThreadPoolExecutor定时器，每100秒执行一次modelFit方法
+ * modelFit作用：
+ * 每次取100个CardInfo出来，然后使用定时器执行，最开始推迟2秒，之后每3秒执行一次
  * @date 2020-04-16 17:02
  * @since JDK 1.8
  */
 public class T05_FullGC_Problem {
-    private static ScheduledExecutorService executorService =
+    /**
+     * 线程池new出来
+     */
+    private static ScheduledThreadPoolExecutor executor =
         new ScheduledThreadPoolExecutor(50, new ThreadPoolExecutor.DiscardOldestPolicy());
 
     public static void main(String[] args) throws InterruptedException {
+        executor.setMaximumPoolSize(50);
         for (; ; ) {
             modelFit();
             Thread.sleep(100);
@@ -34,7 +40,7 @@ public class T05_FullGC_Problem {
 
     private static void modelFit() {
         List<CardInfo> taskList = getAllCardInfo();
-        taskList.forEach(info -> executorService.scheduleAtFixedRate(info::m, 2, 3, TimeUnit.SECONDS));
+        taskList.forEach(info -> executor.scheduleAtFixedRate(info::m, 2, 3, TimeUnit.SECONDS));
     }
 
     private static List<CardInfo> getAllCardInfo() {
