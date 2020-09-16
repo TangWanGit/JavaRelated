@@ -11,6 +11,8 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
+
 /**
  * @author tangwan
  * @Description : T11_SchedulePool
@@ -18,8 +20,10 @@ import java.util.concurrent.atomic.AtomicLong;
  * @since JDK 1.8
  */
 public class T11_SchedulePool {
+
     public static void main(String[] args) {
-        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(4);
+        ScheduledExecutorService scheduledExecutorService = Executors
+            .newScheduledThreadPool(4, new ThreadFactoryBuilder().setNameFormat("test-schedule-pool-[%d]").build());
         //// 每个周期固定
         //scheduledExecutorService.scheduleAtFixedRate(() -> {
         //    System.out
@@ -52,8 +56,9 @@ public class T11_SchedulePool {
         //    }
         //}, 0, 500, TimeUnit.MILLISECONDS);
 
-        scheduledExecutorService.scheduleWithFixedDelay(T11_SchedulePool::reset, 10, 60, TimeUnit.SECONDS);
-        scheduledExecutorService.scheduleWithFixedDelay(T11_SchedulePool::scheduleRequest, 10, 1, TimeUnit.SECONDS);
+        //scheduledExecutorService.scheduleWithFixedDelay(T11_SchedulePool::reset, 10, 60, TimeUnit.SECONDS);
+        //scheduledExecutorService.scheduleWithFixedDelay(T11_SchedulePool::scheduleRequest, 1, 1, TimeUnit.SECONDS);
+        scheduledExecutorService.scheduleAtFixedRate(T11_SchedulePool::scheduleRequest, 1, 1, TimeUnit.SECONDS);
     }
 
     public static void reset() {
@@ -61,7 +66,11 @@ public class T11_SchedulePool {
     }
 
     public static final AtomicLong ac = new AtomicLong();
+
     public static void scheduleRequest() {
-        System.out.println("scheduleRequest" + ac.incrementAndGet());
+        System.out.println(Thread.currentThread().getName() + "  scheduleRequest" + ac.incrementAndGet());
+        if (ac.get() > 5) {
+            throw new RuntimeException("has an error");
+        }
     }
 }

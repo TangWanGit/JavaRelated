@@ -6,7 +6,7 @@
  */
 package com.tangwan.jvm;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,10 +17,13 @@ import java.util.List;
  * @since JDK 1.8
  */
 public class HeapOOM {
+    public static final int _1MB = 1024 * 1024;
+
     public static void main(String[] args) {
-        List<Object> objects = new LinkedList<>();
-        for (; ; ) {
-            objects.add(new Object());
+        List<byte[]> byteList = new ArrayList<>(10);
+        for (int i = 0; i < 10; i++) {
+            byte[] bytes = new byte[2 * _1MB];
+            byteList.add(bytes);
         }
     }
 }

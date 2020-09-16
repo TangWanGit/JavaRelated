@@ -7,6 +7,9 @@
 package com.tangwan.juc.c0_basic;
 
 import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.FutureTask;
 
 /**
  * @author Zhao Xiaoli
@@ -42,6 +45,12 @@ public class T02_HowToCreateThread {
         //启动线程的五种方式
         new MyThread().start();
         new Thread(new MyRun()).start();
+        new Thread(() -> System.out.println("Hello Lambda")).start();
+        Thread t = new Thread(new FutureTask<String>(new MyCall()));
+        t.start();
 
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        executorService.execute(() -> System.out.println("Hello ThreadPool"));
+        executorService.shutdown();
     }
 }

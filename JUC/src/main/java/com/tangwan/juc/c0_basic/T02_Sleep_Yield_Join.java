@@ -15,8 +15,8 @@ package com.tangwan.juc.c0_basic;
 public class T02_Sleep_Yield_Join {
     public static void main(String[] args) {
         //testSleep();
-        //testYield();
-        testJoin();
+        testYield();
+        //testJoin();
     }
 
     private static void testJoin() {

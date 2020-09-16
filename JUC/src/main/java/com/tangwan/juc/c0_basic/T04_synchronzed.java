@@ -14,8 +14,26 @@ package com.tangwan.juc.c0_basic;
  */
 public class T04_synchronzed {
 
+    private int count = 10;
+    private Object o = new Object();
+
+    public void syncObject() {
+        synchronized (o) {
+            count--;
+            System.out.println(Thread.currentThread().getName() + " count = " + count);
+        }
+    }
+
+    public void syncThis() {
+        synchronized (this) {
+            count--;
+            System.out.println(Thread.currentThread().getName() + " count = " + count);
+        }
+    }
+
     public synchronized void syncMethod1() {
         System.out.println("syncMethod1");
+        normalMethod();
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
@@ -34,17 +52,16 @@ public class T04_synchronzed {
     public static void main(String[] args) throws InterruptedException {
         T04_synchronzed t = new T04_synchronzed();
         Thread threadA = new Thread(t::syncMethod1);
-        Thread threadB = new Thread(t::syncMethod2);
-        Thread threadC = new Thread(t::normalMethod);
+        //Thread threadB = new Thread(t::syncMethod2);
+        //Thread threadC = new Thread(t::normalMethod);
 
         threadA.start();
-        threadB.start();
-        threadC.start();
-
-        threadA.join();
-        threadB.join();
-        threadC.join();
-
+        //threadB.start();
+        //threadC.start();
+        //
+        //threadA.join();
+        //threadB.join();
+        //threadC.join();
     }
 
 }

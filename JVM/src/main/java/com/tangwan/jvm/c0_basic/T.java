@@ -29,4 +29,9 @@ public class T {
         System.out.println((l1 - l2) / 1024);
         System.out.println((l1 - l2) / (1024.0 * 1024.0));
     }
+
+    public int test(int a, int b) {
+        Object obj = new Object();
+        return a + b;
+    }
 }

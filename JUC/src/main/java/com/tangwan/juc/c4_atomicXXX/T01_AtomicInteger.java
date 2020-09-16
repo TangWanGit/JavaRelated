@@ -26,6 +26,7 @@ public class T01_AtomicInteger {
     }
 
     public static void main(String[] args) {
+        new Object();
         T01_AtomicInteger t = new T01_AtomicInteger();
 
         List<Thread> threads = new ArrayList<Thread>();

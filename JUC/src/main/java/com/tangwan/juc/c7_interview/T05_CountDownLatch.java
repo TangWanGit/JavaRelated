@@ -76,12 +76,15 @@ public class T05_CountDownLatch {
 
                 if (c.size() == 5) {
                     countDownLatch.countDown();
+                    try {
+                        countDownLatch.await();
+
+                        //TimeUnit.SECONDS.sleep(1);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
-                try {
-                    TimeUnit.SECONDS.sleep(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+
             }
         }, "t1").start();
 
