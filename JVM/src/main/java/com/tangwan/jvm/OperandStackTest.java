@@ -20,4 +20,12 @@ public class OperandStackTest {
             System.out.println(hollis);
         }
     }
+
+    public String helloStr(String name) {
+        String str = "abc" + "def";
+        str = name + "hello";
+
+        System.out.println("hello " + name);
+        return str;
+    }
 }
