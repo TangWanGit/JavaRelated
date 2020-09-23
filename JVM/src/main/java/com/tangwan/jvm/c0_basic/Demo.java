@@ -97,6 +97,17 @@ public class Demo {
 
         System.out.println(integer1 == integer2);
     }
+
+    public void testString() {
+        String s1 = "hello world";
+        String s2 = "hello";
+        // 运行时通过StringBuilder拼接后返回的toString()
+        String s3 = s2 + " world";
+        System.out.println(s1 == s3);
+        System.out.println(s1 == s3.intern());
+        String s4 = "hello" + " world";
+        System.out.println(s1 == s4);
+    }
 }
 
 
