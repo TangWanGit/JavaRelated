@@ -6,6 +6,10 @@
  */
 package com.tangwan.jvm.c0_basic;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 /**
  * @author Zhao Xiaoli
  * @Description : Demo
@@ -96,6 +100,8 @@ public class Demo {
         Integer integer2 = new Integer(32769);
 
         System.out.println(integer1 == integer2);
+        System.out.println(ldc == ldc2);
+        System.out.println(ldc != ldc2);
     }
 
     public void testString() {
@@ -107,6 +113,44 @@ public class Demo {
         System.out.println(s1 == s3.intern());
         String s4 = "hello" + " world";
         System.out.println(s1 == s4);
+    }
+
+    static int i = 0;
+    public static class People {
+
+        String name;
+
+        public People(String name) {
+            System.out.println(i);
+            this.name = name;
+        }
+
+        public static void print() {
+            System.out.println("hello ");
+        }
+        @Override
+        public boolean equals(Object obj) {
+            if (obj == null) {
+                return false;
+            }
+            if (this == obj) {
+                return true;
+            }
+            if (obj instanceof People) {
+                return name.equals(((People)obj).name);
+            }
+            return false;
+        }
+
+        @Override
+        public int hashCode() {
+            return name.hashCode();
+        }
+
+        @Override
+        public String toString() {
+            return "People{" + "name='" + name + '\'' + '}';
+        }
     }
 }
 
