@@ -6,6 +6,8 @@
  */
 package com.tangwan.jvm.c0_basic;
 
+import java.util.LinkedList;
+
 /**
  * @author Zhao Xiaoli
  * @Description : Hello
@@ -23,7 +25,7 @@ public class Hello {
     }
 
     public static void main(String[] args) {
-        //System.out.println(Hello.name);
-        //new Hello();
+        System.out.println(Hello.name);
+        new Hello();
     }
 }
