@@ -18,6 +18,7 @@
         <module>Java8</module>
         <module>common</module>
         <module>zuochengyun</module>
+        <module>JDBC</module>
     </modules>
 
     <!--    <build>-->

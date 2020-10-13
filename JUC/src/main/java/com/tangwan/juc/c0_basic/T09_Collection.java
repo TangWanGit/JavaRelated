@@ -17,6 +17,8 @@ import java.util.LinkedList;
 public class T09_Collection {
 
     public static void main(String[] args) {
+        Integer i = Integer.valueOf(1);
+
         //Integer[] array = new Integer[0];
         //System.out.println((Object)array.getClass() == (Object)Object[].class);
 
