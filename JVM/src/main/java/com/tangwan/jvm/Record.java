@@ -15,7 +15,7 @@ import org.openjdk.jol.info.ClassLayout;
  * @since JDK 1.8
  */
 public class Record {
-
+    private long aLong;
     private byte a;
     private int b;
     private boolean c;

@@ -14,11 +14,11 @@
         <module>ObjectSize</module>
         <module>JVM</module>
         <module>JMH</module>
-        <module>Algorithm</module>
-        <module>Java8</module>
+        <module>algorithm</module>
+        <module>java8</module>
         <module>common</module>
         <module>zuochengyun</module>
-        <module>JDBC</module>
+        <module>jdbc-example</module>
     </modules>
 
     <!--    <build>-->

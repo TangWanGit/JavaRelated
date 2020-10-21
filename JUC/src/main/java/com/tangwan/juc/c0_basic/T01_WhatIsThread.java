@@ -31,15 +31,19 @@ public class T01_WhatIsThread {
     }
 
     public static void main(String[] args) {
-        new T1().start();
-        for (int i = 0; i < 10; i++) {
-            try {
-                TimeUnit.MICROSECONDS.sleep(1);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println("main");
-        }
+        //new T1().start();
+        //for (int i = 0; i < 10; i++) {
+        //    try {
+        //        TimeUnit.MICROSECONDS.sleep(1);
+        //    } catch (InterruptedException e) {
+        //        e.printStackTrace();
+        //    }
+        //    System.out.println("main");
+        //}
+
+        new Thread(()-> System.out.println(Thread.currentThread().getName())).start();
+        new Thread(()-> System.out.println(Thread.currentThread().getName())).start();
+
     }
 }
 

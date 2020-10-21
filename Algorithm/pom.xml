@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tangwan.jvm</groupId>
-    <artifactId>Algorithm</artifactId>
+    <artifactId>algorithm</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
