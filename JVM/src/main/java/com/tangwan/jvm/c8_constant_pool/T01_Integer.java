@@ -14,6 +14,12 @@ package com.tangwan.jvm.c8_constant_pool;
  */
 public class T01_Integer {
     public static void main(String[] args) {
+        System.out.println(1 << 12);
+        System.out.println(1 << 15);
+
+        long l = 3;
+        System.out.println(l);
+
         Integer const_1 = 1;
         Integer const_2 = 1;
         Integer bipush = 127;
@@ -26,5 +32,16 @@ public class T01_Integer {
         System.out.println(bipush == bipush2);
         System.out.println(sipush == sipush2);
         System.out.println(ldc == ldc2);
+
+        boolean b = true;
+        if (b) {
+            System.out.println("b");
+        }
+        if (b == true) {
+            System.out.println("==");
+        }
+
+        System.out.println(T00_Constant.C);
+
     }
 }

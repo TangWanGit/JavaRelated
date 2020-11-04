@@ -6,6 +6,7 @@
  */
 package com.tangwan.date;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
@@ -45,8 +46,20 @@ public class DateUtils {
         return localDateTime.toInstant(ZoneOffset.UTC).getEpochSecond();
     }
 
+    public static String left(Long gmt) {
+        Duration of = Duration.ofSeconds(Instant.now().getEpochSecond() - gmt);
+        long days = of.toDays();
+        of = of.minus(days, ChronoUnit.DAYS);
+        long hours = of.toHours();
+        of = of.minus(hours, ChronoUnit.HOURS);
+        long minutes = of.toMinutes();
+        of = of.minus(minutes, ChronoUnit.MINUTES);
+
+        return String.format("%s天%s时%s分%s秒", days, hours, minutes, of.getSeconds());
+    }
+
     public static void main(String[] args) {
 
-        System.out.println(getRoundedMinuteFromNow());
+        System.out.println(left(1602432898L));
     }
 }
