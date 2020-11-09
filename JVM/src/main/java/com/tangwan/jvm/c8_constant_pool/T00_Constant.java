@@ -20,8 +20,19 @@ package com.tangwan.jvm.c8_constant_pool;
 public class T00_Constant {
 
     public static final String C = "kkk";
+    public static final int i = 9;
+    public static final Object o = new Object();
 
     static {
         System.out.println("cinit T00_Constant");
+        Byte b;
+        Character character;
+        Short s;
+        Integer i;
+        Long l;
+        Float f;
+        Double d;
+        Boolean bo;
+
     }
 }
