@@ -6,6 +6,11 @@
  */
 package com.tangwan.jvm.c8_constant_pool;
 
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @author Zhao Xiaoli
  * @Description : T00_Constant
@@ -23,16 +28,40 @@ public class T00_Constant {
     public static final int i = 9;
     public static final Object o = new Object();
 
-    static {
-        System.out.println("cinit T00_Constant");
-        Byte b;
-        Character character;
-        Short s;
-        Integer i;
-        Long l;
-        Float f;
-        Double d;
-        Boolean bo;
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>(10);
+        System.out.println(list.size());
+        System.out.println(getCapacity(list));
+        list.set(5, 1);
+        list.remove(1);
 
+        HashMap<String, String> map = new HashMap<>();
+        map.put("", "");
+        ConcurrentHashMap<String, String> concurrentHashMap = new ConcurrentHashMap<>();
+        concurrentHashMap.put("", "");
+
+    }
+
+    /**
+     * 获取list容量
+     *
+     * @param list
+     *
+     * @return
+     */
+    public static Integer getCapacity(ArrayList list) {
+        Integer length = null;
+        Class clazz = list.getClass();
+        Field field;
+        try {
+            field = clazz.getDeclaredField("elementData");
+            field.setAccessible(true);
+            Object[] object = (Object[])field.get(list);
+            length = object.length;
+            return length;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return length;
     }
 }

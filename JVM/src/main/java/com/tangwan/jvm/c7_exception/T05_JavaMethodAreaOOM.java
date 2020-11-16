@@ -38,19 +38,25 @@ public class T05_JavaMethodAreaOOM {
         //
         ////Integer cacheAfter = IntegerCache.cache[0];
         ////System.out.println(cacheBefore == cacheAfter);
-        //String str2 = new String("ABC") + "ABC";
-        //System.out.println(str2);
-        //
-        //String s1 = new String("he") + new String("llo");    //第一句
-        //String s2 = new String("h") + new String("ello");    //第二句
-        //String s3 = s1.intern();                           //第三句
-        //String s4 = s2.intern();                           //第四句
-        //System.out.println(s1 == s3);                        //第五句
-        //System.out.println(s1 == s4);
-        //System.out.println(s2 == s4);
-        System.out.println(T05_JavaMethodAreaOOM.i);
-        T05_JavaMethodAreaOOM.i = 120;
-        System.out.println(T05_JavaMethodAreaOOM.i);
+        String str2 = new String("ABC") + "ABC";
+        System.out.println(str2);
+
+        String s1 = new String("he") + new String("llo");    //第一句
+        String s2 = new String("h") + new String("ello");    //第二句
+        String s3 = s1.intern();                           //第三句
+        String s4 = s2.intern();                           //第四句
+        System.out.println(s1 == s3);                        //第五句
+        System.out.println(s1 == s4);
+        System.out.println(s2 == s4);
+        System.out.println(s2 == s3);
+
+        String w = "程序";
+        String wechat3 = new String(w + "新视界");
+        wechat3 = wechat3.intern();
+        System.out.println();
+        //System.out.println(T05_JavaMethodAreaOOM.i);
+        //T05_JavaMethodAreaOOM.i = 120;
+        //System.out.println(T05_JavaMethodAreaOOM.i);
     }
 
     static class OOMObject {

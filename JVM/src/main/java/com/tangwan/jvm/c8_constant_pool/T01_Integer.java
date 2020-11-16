@@ -6,6 +6,8 @@
  */
 package com.tangwan.jvm.c8_constant_pool;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * @author Zhao Xiaoli
  * @Description : T01_Integer
@@ -14,24 +16,46 @@ package com.tangwan.jvm.c8_constant_pool;
  */
 public class T01_Integer {
     public static void main(String[] args) {
-        testSugar();
+        //testSugar();
+        DemoTest test1 = new DemoTest();
+        DemoTest test2 = new DemoTest();
+        System.out.println(test1.s == test2.s);
+
+    }
+
+    public static void atomic() {
+
+        AtomicInteger a = new AtomicInteger();
+        System.out.println(a.incrementAndGet());
     }
 
     public static void testSugar() {
+        int i = 3;
+        int j = 3;
+
         Integer a = 1;
         Integer b = 2;
         Integer c = 3;
-        Integer d = 3;
+        Integer d = Integer.valueOf(3);
+
         Integer e = 321;
         Integer f = 321;
         Long g = 3L;
 
+        Integer h = new Integer(3);
+
         System.out.println(c == d);
+        System.out.println(c == h);
         System.out.println(e == f);
         System.out.println(c == (a + b));
         System.out.println(c.equals((a + b)));
+        System.out.println(c.equals(h));
         System.out.println(g == (a + b));
         System.out.println(g.equals((a + b)));
+
+        long l1 = 100;
+        int i1 = 99;
+        System.out.println(l1 == (i1 + 1));
     }
 
     public static void test() {

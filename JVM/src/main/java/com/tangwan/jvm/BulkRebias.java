@@ -13,7 +13,7 @@ import org.openjdk.jol.info.ClassLayout;
 
 /**
  * @author Zhao Xiaoli
- * @Description : BulkRebias
+ * @Description : BulkRebias 批量锁撤销
  * @date 2020-09-01 00:07
  * @since JDK 1.8
  */
