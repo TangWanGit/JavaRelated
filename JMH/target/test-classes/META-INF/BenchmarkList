@@ -1,0 +1,2 @@
+JMH S 22 com.tangwan.jmh.PSTest S 52 com.tangwan.jmh.generated.PSTest_testForeach_jmhTest S 11 testForeach S 10 Throughput E A 1 1 1 E I 1 1 T 3 3 s E I 1 1 T 3 3 s E I 1 5 E E E E E E E E E 
+JMH S 22 com.tangwan.jmh.PSTest S 53 com.tangwan.jmh.generated.PSTest_testParallel_jmhTest S 12 testParallel S 10 Throughput E A 1 1 1 E I 1 1 T 3 3 s E I 1 1 T 3 3 s E I 1 5 E E E E E E E E E 

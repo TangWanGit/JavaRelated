@@ -60,6 +60,18 @@ public class Demo {
         int i1 = 3;
         int i2 = 3;
         System.out.println(i1 == i2);
+
+        People people1 = new People("Tom");
+        People people2 = new People("Tom");
+
+        Map<People, People> map = new HashMap<>();
+        map.put(people1, people1);
+        map.put(people2, people2);
+
+        Set<Map.Entry<People, People>> entries = map.entrySet();
+        for (Map.Entry<People, People> entry : entries) {
+            System.out.println(entry.getKey());
+        }
     }
 
     private static class IntegerCache {
