@@ -47,5 +47,7 @@ public class T05_Dispatch {
         Father son = new Son();
         father.hardChoice(new _360());
         son.hardChoice(new QQ());
+        father = son;
+        father.hardChoice(new QQ());
     }
 }
