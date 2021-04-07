@@ -3,6 +3,8 @@ package com.tangwan.common.utils;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import sun.jvm.hotspot.debugger.ThreadAccess;
+
 public class LRUCache<K, V> extends LinkedHashMap<K, V> {
     private final int CACHE_SIZE;
 
@@ -33,8 +35,6 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
         lruCache.put("2", "2");
         String s = lruCache.get("1");
         lruCache.put("3", "3");
-
-
 
         for (Map.Entry<String, String> entry : lruCache.entrySet()) {
             System.out.println(entry.getKey() + ":" + entry.getValue());
