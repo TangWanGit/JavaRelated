@@ -9,6 +9,7 @@ package com.tangwan.jvm;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.vm.VM;
 
 /**
@@ -21,6 +22,10 @@ public class KlassPointer {
     public static final int _1MB = 1024 * 1024;
 
     public static void main(String[] args) {
+        testHashcode();
+    }
+
+    public static void testAddrChange() {
         Object o = new Object();
         Object o1 = new Object();
 
@@ -38,7 +43,36 @@ public class KlassPointer {
         addr(o1);
     }
 
+    public static void testHashcode() {
+        // 创建对象并打印JVM中对象的信息
+        Person person = new Person(1);
+        System.out.println(ClassLayout.parseInstance(person).toPrintable());
+        // 调用hashCode方法，如果重写了hashCode方法则调用System#identityHashCode方法
+        System.out.println(person.hashCode());
+        // System.out.println(System.identityHashCode(person));
+        // 再次打印对象JVM中的信息
+        System.out.println(ClassLayout.parseInstance(person).toPrintable());
+
+        System.out.println(System.identityHashCode(person));
+
+        // 再次打印对象JVM中的信息
+        System.out.println(ClassLayout.parseInstance(person).toPrintable());
+    }
+
     public static void addr(Object o) {
         System.out.println("The memory address is " + VM.current().addressOf(o) + " , toString: " + o.toString());
+    }
+
+    private static class Person {
+        int i;
+
+        public Person(int i) {
+            this.i = i;
+        }
+
+        @Override
+        public int hashCode() {
+            return i;
+        }
     }
 }
