@@ -18,10 +18,10 @@ import org.apache.commons.lang3.RandomStringUtils;
  */
 public class Gongjijin2 {
     public static void main(String[] args) {
-        long sum = 798;
-        long incr = 5000;
-        long cur = 133;
-        for (int i = 0; i < 12; i++) {
+        long sum = 3590;
+        long incr = 2400;
+        long cur = 3590;
+        for (int i = 0; i < 16; i++) {
             cur = cur + incr;
             sum = sum + cur;
         }
@@ -31,7 +31,7 @@ public class Gongjijin2 {
         System.out.println(sum / 12);
         System.out.println(sum / 12 * 15);
 
-        System.out.print(newOrderId());
+        //System.out.print(newOrderId());
     }
 
     public static Long newOrderId() {

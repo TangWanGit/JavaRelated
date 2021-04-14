@@ -6,9 +6,7 @@
  */
 package com.tangwan.jvm;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * @author Zhao Xiaoli
@@ -19,33 +17,23 @@ import java.util.List;
 public class Gongjijin {
     public static void main(String[] args) {
         LinkedList<Long> alr = new LinkedList<>();
-        alr.addLast(22773L);
-        alr.addLast(18693L);
-        alr.addLast(14613L);
-        alr.addLast(10553L);
-        alr.addLast(2373L);
-        alr.addLast(14373L);
-        alr.addLast(10293L);
-        alr.addLast(9220L);
-        alr.addLast(9220L);
-        alr.addLast(8256L);
-        alr.addLast(8256L);
-        alr.addLast(7292L);
+        alr.addLast(3257L);
+        alr.addLast(3590L);
 
         ;
 
-        long x = 22773;
-        long y = 4080;
-        long c = 11325;
+        long cur = 3590;
+        long incr = 1600;
 
-        long cc = 11325 * 12;
+        long cc = 3590;
 
-        long s = 170000;
+        long s = 3590;
         int count = 0;
 
         while (s < 500000) {
-            x = x + y;
-            cc = cc - alr.removeLast() + x;
+            cur = cur + incr;
+            alr.addLast(cc);
+            cc = cc - alr.removeFirst() + cur;
             s = cc / 12 * 15;
             count++;
         }
